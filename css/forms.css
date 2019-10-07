@@ -1,0 +1,35 @@
+.pozi {
+font-size: 0.8em;
+font-family: "DejaVu Sans Mono", Inconsolata, monospace;
+width: 98%;
+}
+section input {
+  width: 100%;
+  font-size: 1.2em;
+}
+input[type="submit"], input[type="reset"] {
+  width: 49%;
+}
+input[type="checkbox"] {
+width: auto;
+-moz-transform: scale(2); 
+-webkit-transform: scale(2); 
+-o-transform: scale(2);
+-ms-transform: scale(2); 
+padding: 10px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="checkbox"]:hover, label:hover, button:hover {
+  background-color: #329632;
+  color: #fff;
+  cursor: pointer;
+}
+#text {
+  width: 100%;
+  font-size: 1.3em;
+}
+label {
+  text-align: right;
+}
+#ne0 {
+  padding: 0.5em;
+}

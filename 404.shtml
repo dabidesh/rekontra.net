@@ -1,0 +1,9 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<meta charset="utf-8" >
+<TITLE>404 Не е намерен</TITLE>
+</HEAD><BODY>
+<H1>Не е намерен</H1>
+Заявения адрес <!--#echo var="REQUEST_URI" --> не е намерен на този сървър!<P>
+<p><a href="http://rekontra.net/">Отиди в началото</a></p>
+</BODY></HTML>

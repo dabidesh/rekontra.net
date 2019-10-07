@@ -1,0 +1,65 @@
+@keyframes spin
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(180deg)
+    
+=keyframes($spin)
+  @-webkit-keyframes #{$spin}
+    @content
+  @-moz-keyframes #{$spin}
+    @content
+  @-ms-keyframes #{$spin}
+    @content
+  @keyframes #{$spin}
+    @content
+    
++keyframes(spin)
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+    
+#nav
+  &:hover span
+    display: inline-block
+    transform: rotate(90deg)
+    cursor: pointer
+    color: green
+    -webkit-animation: spin 2s linear infinite
+    -moz-animation: spin 2s linear infinite
+    animation: spin 2s linear infinite
+  span
+    color: red
+
+a
+  text-decoration: none
+  /*text-transform: uppercase;
+  color: #FF3434
+  /*font-weight: bold;
+  font-size: 14px
+  position: relative
+  display: inline-block
+  z-index: 1
+  padding: 5px
+  left: -5px
+  width: 100%
+  &:hover
+    color: #FF3434
+  &::before
+    content: ''
+    z-index: -1
+    position: absolute
+    top: calc(0)
+    /*calc(50%);
+    left: 0
+    width: 100%
+    height: 100%
+    /*40%;
+    /*pointer-events: none;
+    background: #80EDFF
+    /* #ff0000;
+    transform: scale3d(0, 1, 1)
+    transform-origin: 0% 50%
+    transition: transform 1s
+    /*0.33s;

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8" />
+<title>Таблица grid</title>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+   }
+   
+ figure .dska{
+/*margin: 0 auto;*/
+margin-left: auto; 
+margin-right: auto;
+} 
+figure img{
+text-align: center;
+display: block;
+margin-left: auto; 
+margin-right: auto;
+} 
+
+   
+.dska {
+  border-collapse: collapse; 
+  border-spacing: 0; 
+/*border-collapse: expression('collapse', cellSpacing = '0');*/
+}
+/*.dska td, .dska th {
+padding: 0; 
+}*/
+
+table, table img {
+  width: 100%;
+}
+
+@media (orientation: landscape) {
+        .imgbox {
+            display: grid;
+            height: 100%;
+            /*width: 100%;*/
+            border: 1px solid red;
+        }
+        .dska {
+            width: 100%;
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<figure class="imgbox">   
+<table class="dska" >
+<tr><td colspan="15"><img src="html-images/b-hitop.png" class="block" alt="+-24-23-22-21-20-19-+---+-18-17-16-15-14-13-+" /></td></tr>
+<tr><td rowspan="2"><img src="html-images/b-roff-x0.png" class="block" alt="|" /></td><td rowspan="2"><img src="html-images/b-gd.png" class="block" alt="&nbsp;" /></td><td rowspan="2"><img src="html-images/b-rd-o2.png" class="block" alt="2O" /></td><td rowspan="2"><img src="html-images/b-gd-o2.png" class="block" alt="2O" /></td><td rowspan="2"><img src="html-images/b-rd-x2.png" class="block" alt="2X" /></td><td rowspan="2"><img src="html-images/b-gd-x3.png" class="block" alt="3X" /></td><td rowspan="2"><img src="html-images/b-rd-x2.png" class="block" alt="2X" /></td><td><img src="html-images/b-ct.png" class="block" alt="|&nbsp;&nbsp;&nbsp;|" /></td><td rowspan="2"><img src="html-images/b-gd-x3.png" class="block" alt="3X" /></td><td rowspan="2"><img src="html-images/b-rd-x2.png" class="block" alt="2X" /></td><td rowspan="2"><img src="html-images/b-gd.png" class="block" alt="&nbsp;" /></td><td rowspan="2"><img src="html-images/b-rd.png" class="block" alt="&nbsp;" /></td><td rowspan="2"><img src="html-images/b-gd.png" class="block" alt="&nbsp;" /></td><td rowspan="2"><img src="html-images/b-rd.png" class="block" alt="&nbsp;" /></td><td rowspan="2"><img src="html-images/b-roff-x0.png" class="block" alt="|" /></td></tr>
+<tr><td><img src="html-images/b-bar-o0.png" class="block" alt="|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|" /></td></tr>
+<tr><td><img src="html-images/b-midlb.png" class="block" alt="|" /></td><td colspan="6"><img src="html-images/b-midl.png" class="block" alt="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" /></td><td><img src="html-images/b-midc.png" class="block" alt="|&nbsp;&nbsp;&nbsp;|" /></td><td colspan="6"><img src="html-images/b-midr-o25.png" class="block" alt="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" /></td><td><img src="html-images/b-midrb-o.png" class="block" alt="|" /></td></tr>
+<tr><td rowspan="2"><img src="html-images/b-roff-o0.png" class="block" alt="|" /></td><td rowspan="2"><img src="html-images/b-ru-o2.png" class="block" alt="2O" /></td><td rowspan="2"><img src="html-images/b-gu-o1.png" class="block" alt="1O" /></td><td rowspan="2"><img src="html-images/b-ru-x1.png" class="block" alt="1X" /></td><td rowspan="2"><img src="html-images/b-gu-o2.png" class="block" alt="2O" /></td><td rowspan="2"><img src="html-images/b-ru-o1.png" class="block" alt="1O" /></td><td rowspan="2"><img src="html-images/b-gu-o2.png" class="block" alt="2O" /></td><td><img src="html-images/b-bar-x0.png" class="block" alt="| 2&nbsp;|" /></td><td rowspan="2"><img src="html-images/b-ru.png" class="block" alt="&nbsp;" /></td><td rowspan="2"><img src="html-images/b-gu-o2.png" class="block" alt="2O" /></td><td rowspan="2"><img src="html-images/b-ru-o1.png" class="block" alt="1O" /></td><td rowspan="2"><img src="html-images/b-gu.png" class="block" alt="&nbsp;" /></td><td rowspan="2"><img src="html-images/b-ru.png" class="block" alt="&nbsp;" /></td><td rowspan="2"><img src="html-images/b-gu-x2.png" class="block" alt="2X" /></td><td rowspan="2"><img src="html-images/b-roff-o0.png" class="block" alt="|" /></td></tr>
+<tr><td><img src="html-images/b-cb-2.png" class="block" alt="2 у зелените" /></td></tr>
+<tr><td colspan="15"><img src="html-images/b-lobot.png" class="block" alt="+--1--2--3--4--5--6-+---+--7--8--9-10-11-12-+" /></td></tr></table>
+
+<figcaption>П1. Резултат: 1 на 1(до 3). Пипаж: 144(зелени), 120(червени); разлика: 24(20%).</figcaption>
+</figure>
+<button onclick="copyi1()">Копирай</button>
+<label for="idg1">GNUbg ID (кликнете за избор, после копирайте и поставете в gnubg):
+<input type="text" class="pozi" id="idg1" value="Position ID: 2O0GAwjLmgUAGw Match ID: UYlqABAACAAE" readonly/></label>
+<script>
+function copyi1() {
+  var copyText = document.getElementById("idg1");
+  copyText.select();
+  document.execCommand("copy");
+}
+</script>
+
+</body>
+</html>
+

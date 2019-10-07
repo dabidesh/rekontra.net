@@ -1,0 +1,21 @@
+article {
+  padding: 0.5em
+  /*border: 10px solid green;*/
+}
+
+article a {
+  display: inline;
+}
+
+article h1 a, article h2 a, article h3 a, article li a {
+  display: block;
+  width: 100%;
+}
+
+article ul {
+  list-style-image: none;
+  list-style-position: inside;
+}
+
+
+

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8" />
+<title>Капия</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+  line-height: 0;
+  font-size: 16px;
+}
+
+#konti {
+  min-height: 300px;
+  min-width: 400px;
+  border: 1px solid red;
+  /*background: url(transparent.png) 0 0 repeat;*/
+  
+  font-size: 0;
+}
+#konti div {
+  display: inline-block;
+  font-size: 16px;
+}
+
+#konti div div {
+position: absolute;
+font-size: 20px;
+line-height: 2em;
+}
+
+.lenta {
+  width: 100px;
+  height: 300px;
+
+  background: blue;
+}
+.sreda {
+  width: 1600px;
+  height: 150px;
+  
+  background: green;
+}
+
+
+.triangle-down {
+  width: 0; 
+  height: 0;
+  border-style: solid;
+  border-width: 300px 50px 0 50px;
+
+}
+.triangle-up {
+  width: 0; 
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 300px 50px;
+  
+}
+
+#konti div.triangle-down:nth-child(even) {
+  border-color: blue transparent transparent transparent;
+}
+#konti div.triangle-down:nth-child(odd) {
+  border-color: green transparent transparent transparent;
+}
+
+#konti div.triangle-up:nth-child(even) {
+  border-color: transparent transparent blue transparent;
+}
+#konti div.triangle-up:nth-child(odd) {
+  border-color: transparent transparent green transparent;
+}
+
+#konti div.tout:nth-child(even) {
+  border-color: transparent transparent blue transparent;
+}
+#konti div.tout:nth-child(odd) {
+  border-color: transparent transparent green transparent;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  
+  position: absolute;
+  
+  padding-top: 12.5px;
+  
+  text-align: center;
+  /*vertical-align: middle;*/
+  font-size: 20px;
+  line-height: 10px;
+  
+  opacity: 0.7;
+}
+#pul1 {
+  left: 125px;
+  top: 0;
+}
+#pul2 {
+  left: 125px;
+  top: 50px;
+}
+#pul3 {
+  left: 125px;
+  top: 100px;
+}
+#pul4 {
+  left: 125px;
+  top: 150px;
+}
+#pul5 {
+  left: 125px;
+  top: 200px;
+}
+#pul6 {
+  left: 125px;
+  top: 250px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+ <div id="konti">
+ 
+   <div class="lenta" id="lenta1"><div>167</div></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   
+   <div class="lenta" id="bar1"></div>
+   <div class="lenta" id="bar1"></div>
+   
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   <div class="triangle-down"></div>
+   
+   <div class="lenta" id="lenta2"></div>
+   
+   </br>
+   
+   <div class="sreda" id="sreda1"></div>
+   
+   </br>
+   
+   <div class="lenta" id="lenta2"></div>
+   
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   
+   <div class="lenta" id="bar2"></div>
+   <div class="lenta" id="bar2"></div>
+   
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   <div class="triangle-up"></div>
+   
+   <div class="lenta" id="lenta2"></div>
+   
+   
+   <div class="circle" id="pul1"></div>
+   <div class="circle" id="pul2"></div>
+   <div class="circle" id="pul3"></div>
+   <div class="circle" id="pul4"></div>
+   <div class="circle" id="pul5"></div>
+   <div class="circle" id="pul6">15</div>
+   
+   
+   
+   
+   
+ </div>
+
+
+
+
+
+</body>
+</html>
+

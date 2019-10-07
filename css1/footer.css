@@ -1,0 +1,26 @@
+.peng {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+.copyleft {
+  display: inline-block;
+  transform: rotateY(180deg);
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  background: #49662d;
+  color: #fff;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin-bottom: 30em;
+}
+
+footer a {
+  display: inline;
+}
+
+/*# sourceMappingURL=footer.css.map */

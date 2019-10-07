@@ -1,0 +1,224 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+html {  
+margin: 0;
+padding: 0;
+}
+body { padding: 0; margin: 0; 
+background: #001D00;
+color: #fff;
+line-height: 1.8em;
+}
+header, nav, article, footer, konti, section { 
+padding: 0; margin: 0; display: block;
+}
+header { margin: 0; padding: 0 0 0.4em; text-align: center; background: #49662d; color: #fff; 
+margin-bottom: 1em;
+border-top-left-radius: 2em;
+font-size: 20px; 
+}
+header h1 {
+margin-top: 0.2em;
+}
+#konti {
+opacity: 0.8;
+border-top-left-radius: 2.2em 2.2em;
+}
+nav { padding-left: 0; 
+background:#2d672d;
+color: #fff;
+border-top-right-radius: 1em 2em;
+font-size: 20px;
+}
+article {
+background: #fff;
+color: #000;
+font-size: 20px;
+border-top-left-radius: 1em 2em;
+padding: 0.5%;
+margin-left: 1%;
+}
+aside {margin-left: 0; padding-left: 0;  
+background: #2d6649;
+color: #fff;
+font-size: 17px; 
+}
+footer { 
+text-align: center; 
+font-size: 16px; 
+background: #49662d; 
+color: #fff;
+padding-top: 4em;
+padding-bottom: 4em;
+margin-bottom: 30em;
+}
+nav, aside {
+text-align: center;
+}
+nav ul, aside ul {
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-left: 0;
+margin-left: 0; /*Експлодър, 1-вия лист*/
+}
+nav li, aside li {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+img {
+width: 100%;
+/*min-width: 100%;
+height: 80vh;*/
+margin: auto;
+}
+a {text-decoration: none;}
+a img {
+border: none;
+}
+nav a { display: block; width: 100%; 
+color: #522452;
+}
+nav a:hover { background: #522452; color:#2d672d; }
+
+aside a { display: block; width: 100%; color: #572441; }
+aside a:hover { background-color: #572441; color: #2d6649; }
+aside a img {margin-top: 0.5em;
+/*width: 96%;
+height: auto;*/}
+
+footer a { color: #412457; }
+footer a:hover { background:#412457; color: #49662d; }
+
+header a {color:#432559;}
+header a:hover {background:#432559; color: #49662d; }
+header h1, article h1, article h2, article h3 {
+  padding: 0; 
+  margin: 0;
+  display: inline;
+}
+header h1 a, article h1 a, article h2 a, article h3 a{
+  display: block;
+  width:100%;
+}
+article a {
+  color: #329632;
+}
+article a:hover {
+  background-color: #329632;
+  color: #fff;
+}
+.tuke {background: #522452; color:#2d672d;}
+.tuke0 {background-color: #572441; color:#2d6649;}
+
+.block { display: block; }
+figure .dska{
+/*margin: 0 auto;*/
+margin-left:auto; 
+margin-right:auto;
+}
+figure img{
+text-align: center;
+display: block;
+margin-left:auto; 
+margin-right:auto;
+}
+.dska { margin: 0; padding: 0; border-collapse: collapse; border-spacing: 0; 
+/*border-collapse: expression('collapse', cellSpacing = '0');*/
+}
+.dska td, .dska th {
+padding: 0; 
+}
+.poz {
+margin-bottom: 1em;
+background: #fff;
+color: #000;
+width: 100%;
+}
+.poz, .poz th, .poz td {
+border: 1px #006600 solid;
+border-collapse: collapse;
+}
+.tek {
+background-color: #9EC9A0;
+}
+.poz tr:hover {
+background-color: #329632;
+color: #fff;
+}
+section input {
+width: 98%;
+font-size: 1.2em;
+/*box-sizing: border-box;*/
+}
+.pozi {
+font-size: 0.8em;
+font-family: "DejaVu Sans Mono", Inconsolata, monospace;
+width: 98%;
+}
+input[type="submit"], input[type="reset"] {
+  width: 49%;
+}
+input[type="checkbox"] {
+width: auto;
+-moz-transform: scale(2); 
+-webkit-transform: scale(2); 
+-o-transform: scale(2);
+-ms-transform: scale(2); 
+padding: 10px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="checkbox"]:hover, label:hover, button:hover {
+  background-color: #329632;
+  color: #fff;
+  cursor: pointer;
+}
+#text {
+  width: 99%;
+  font-size: 1.3em;
+}
+label {
+  text-align: right;
+}
+#ne0 {
+padding: 0.5em;
+}
+abbr {
+  cursor: help;
+  border-bottom: 1px dashed black;
+}
+.greshka {
+  color: red;
+}
+.ubavo {
+  color: green;
+}
+.vnimanie {
+  color: #FFAD17;
+}
+/*Експлодър*/
+nav ul, aside ul {
+display: inline;
+}
+*::-moz-selection {
+  background-color: #183714;
+  color: #fff; 
+}
+.copyleft {
+  display: inline-block;
+  transform: rotateY(180deg);
+}
+.rest {
+  overflow-x:auto;
+}
+.peng {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+#nav, #olex {
+  cursor: pointer;
+}
+
