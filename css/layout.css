@@ -8,15 +8,16 @@
   
 #konti {
   display: grid;
+  grid-gap: var(--spacing-layout-elements);
   grid-template-areas: "head head head"
-                                    "na na na"
-                                    "art art art"
-                                    "asi asi asi"
-                                    "foot  foot foot";
+                       "na na na"
+                       "art art art"
+                       "asi asi asi"
+                       "foot  foot foot";
   grid-template-columns: 1fr;                             
   /*grid-column-gap: 2em;*/
-  grid-row-gap: 3em;
-  /*margin: 3em 2em 3em 2em;
+  /*grid-row-gap: 3em;
+  margin: 3em 2em 3em 2em;
   max-width: 60em;
   margin: 0 auto;
   padding: 2em;
@@ -43,16 +44,44 @@ aside {
 footer {
  grid-area:  foot;
 }
-   
+
+@media (min-width: 768px) {  
+  #konti {
+        display: grid;
+        grid-template-areas: "head head"
+                             "na art"
+                             "asi asi"
+                             "foot foot";
+        grid-template-columns: 1fr 3fr;
+        
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+         }
+  .kr {
+    display: none;
+  }
+}
+
 @media (min-width: 1024px) {  
   #konti {
         grid-template-areas: "head head head"
-                                        "na art asi"
-                                        "foot  foot foot";    
+                             "na art asi"
+                             "foot  foot foot";    
         grid-template-columns: 1fr 3fr 1fr;
-        grid-column-gap: 2em;
-        width: 98%;
-        margin-left: auto; 
-        margin-right: auto;
-            }
+         }
 }
+
+
+
+/*@media only screen and (orientation: landscape) {
+  .img-konti {
+            display: grid;
+            height: 100%;
+             }
+  .fit {
+            max-width: 95%;
+            max-height: 95vh;
+            margin: auto;
+       }
+}*/

@@ -1,0 +1,21 @@
+.rest {
+    overflow-x: auto;
+  }
+
+.poz {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #000;
+  width: 100%;
+}
+.poz, .poz th, .poz td {
+  border: 1px #006600 solid;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #9EC9A0;
+}
+.poz tr:hover {
+  background-color: #329632;
+  color: #fff;
+}
