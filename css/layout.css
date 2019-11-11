@@ -1,11 +1,14 @@
-* {
+*, *:before, *:after {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-    /*box-sizing: inherit;
-    transition: 3s ease all; */
+  /*box-sizing: border-box;*/
+  box-sizing: inherit;
+    /*transition: 3s ease all; */
   }
-  
+
+html {
+  box-sizing: border-box;
+}
 #konti {
   display: grid;
   grid-gap: var(--spacing-layout-elements);
@@ -26,6 +29,7 @@
   
 header, nav, article, aside, footer {
     border: 1px solid blue;
+    border-radius: var(--spacing-layout-elements);
     /*max-width: 100%;*/
 }
 
@@ -74,7 +78,7 @@ footer {
 
 
 
-/*@media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
   .img-konti {
             display: grid;
             height: 100%;
@@ -84,4 +88,4 @@ footer {
             max-height: 95vh;
             margin: auto;
        }
-}*/
+}

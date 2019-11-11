@@ -1,4 +1,9 @@
 article {
+  background: #fff;
+  color: #000;
+}
+
+article {
   padding: 0.5em
   /*border: 10px solid green;*/
 }
@@ -16,6 +21,8 @@ article ul {
   list-style-image: none;
   list-style-position: inside;
 }
+
+
 
 
 

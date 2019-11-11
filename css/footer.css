@@ -9,13 +9,13 @@
 }
 
 footer { 
-text-align: center; 
-font-size: 16px; 
-background: #49662d; 
-color: #fff;
-padding-top: 4em;
-padding-bottom: 4em;
-margin-bottom: 30em;
+  text-align: center; 
+  font-size: 16px; 
+  background: #49662d; 
+  color: #fff;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin-bottom: 16em;
 }
 footer a {
   display: inline;
