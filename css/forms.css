@@ -18,6 +18,9 @@ width: auto;
 -ms-transform: scale(2); 
 padding: 10px;
 }
+input[type="submit"], input[type="reset"], input[type="checkbox"], label, button {
+transition: background-color 2s ease-in-out, color 2s ease-in-out;
+}
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="checkbox"]:hover, label:hover, button:hover {
   background-color: #329632;
   color: #fff;

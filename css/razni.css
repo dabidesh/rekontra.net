@@ -2,6 +2,14 @@ body {
   background: #001D00;
   color: #fff;
 }
+nav {
+  background: var(--color-nav-bgrd);
+  color: var(--color-body-bgrd);
+}
+aside {
+  background: var(--color-aside-bgrd);
+  color: var(--color-body-bgrd);
+}
 
 #konti {
   opacity: 0.8;
@@ -10,34 +18,3 @@ body {
   width: 100%;
 }
 
-section input {
-  width: 99%;
-  font-size: 1.2em;
-}
-input[type="submit"], input[type="reset"] {
-  width: 49%;
-}
-input[type="checkbox"] {
-  width: auto;
-  transform: scale(2);
-  -moz-transform: scale(2); 
-  -webkit-transform: scale(2); 
-  -o-transform: scale(2);
-  -ms-transform: scale(2); 
-  padding: 10px;
-}
-input[type="submit"]:hover, input[type="reset"]:hover, input[type="checkbox"]:hover, label:hover, button:hover {
-  background-color: #329632;
-  color: #fff;
-  cursor: pointer;
-}
-#text {
-  width: 99%;
-  font-size: 1.3em;
-}
-label {
-  text-align: right;
-}
-#ne0 {
-  padding: 0.8em;
-}

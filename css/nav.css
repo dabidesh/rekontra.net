@@ -1,5 +1,6 @@
 nav, aside {
   text-align: center;
+  padding: 0.5em;
 }
 nav ul, aside ul {
   list-style-image: none;
@@ -25,7 +26,7 @@ nav a {
   width: 100%; 
   color: #522452;
 }
-nav h2 {
+nav h2, #olex {
 cursor: pointer;
 }
 nav a:hover { background: #522452; color:#2d672d; }
