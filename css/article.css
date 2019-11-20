@@ -4,7 +4,7 @@ article {
 }
 
 article {
-  padding: 0.5em;
+  padding: 1em;
 }
 
 article a {
@@ -15,6 +15,14 @@ article h1 a, article h2 a, article h3 a, article li a {
   display: block;
   width: 100%;
 }
+
+article a {
+  color: #329632;
+}
+/*article a:hover {
+  background-color: #329632;
+  color: #fff;
+}*/
 
 article ul {
   list-style-image: none;

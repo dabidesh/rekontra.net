@@ -2,12 +2,12 @@
 
 html {
   font-family: Roboto, sans-serif;
-  font-size: var(--font-size-body-larger);
+  font-size: var(--font-size-body-mobile1, 16px);
   line-height: 1.8em;
 }
 
-nav, aside {
-  font-size: var(--font-size-body-extra, 16px);
+nav {
+  font-size: var(--font-size-body-big, 20px);
   line-height: 2em;
 }
 
@@ -24,8 +24,9 @@ nav, aside {
 }
 
 h1, h2, h3, h4, h5 {
-font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Nanum Gothic Coding', monospace;
 }
+
 h1 { font-size: 2.6em; }
 h2 { font-size: 2.0em; }
 h3 { font-size: 1.8em; }

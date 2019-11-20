@@ -2,13 +2,13 @@
 
 @import url('variables.css');
 
+@import url('animations.css');
+
 @import url('header.css');
 @import url('article.css');
 @import url('footer.css');
 
 @import url('typography.css');
-
-@import url('animations.css');
 
 @import url('layout.css');
 @import url('razni.css');
