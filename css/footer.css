@@ -20,3 +20,10 @@ footer {
 footer a {
   display: inline;
 }
+footer a { 
+  color: #412457; 
+}
+/*footer a:hover { 
+  background:#412457; 
+  color: #49662d; 
+}*/

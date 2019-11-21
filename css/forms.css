@@ -3,34 +3,34 @@
   font-family: "DejaVu Sans Mono", Inconsolata, monospace;
   width: 98%;
 }
-section input {
+section input, section button {
   width: 100%;
   font-size: 1.2em;
 }
-input[type="submit"], input[type="reset"] {
+button[type="submit"], button[type="reset"] {
   width: 49%;
 }
-input[type="submit"] {
+button[type="submit"] {
   border-bottom-left-radius: 1em;
 }
-input[type="reset"] {
+button[type="reset"] {
   border-bottom-right-radius: 1em;
 }
 
 input[type="checkbox"] {
   width: auto;
   transform: scale(4);
-/*-moz-transform: scale(2); 
--webkit-transform: scale(2); 
--o-transform: scale(2);
--ms-transform: scale(2);
-  padding: 4em;*/ 
+  -moz-transform: scale(4); 
+  -webkit-transform: scale(4); 
+  -o-transform: scale(4);
+  -ms-transform: scale(4);
   margin: 1.2em 1.2em 1.2em 0.6em;
 }
 input[type="submit"], input[type="reset"], input[type="checkbox"], label, button {
   transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
 }
-input[type="submit"]:hover, input[type="reset"]:hover, input[type="checkbox"]:hover, label:hover, button:hover {
+/*input[type="submit"]:hover, input[type="reset"]:hover, */
+input[type="checkbox"]:hover, label:hover, button:hover {
   background-color: #329632;
   color: #fff;
   cursor: pointer;
