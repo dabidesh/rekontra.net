@@ -8,8 +8,8 @@ html {
 }
 
 nav {
-  font-size: var(--font-size-body-big, 20px);
-  /*line-height: 2em;*/
+  font-size: var(--font-size-body-extra, 24px);
+  line-height: 2em;
 }
 
 @media ( min-width: 600px ) {
@@ -21,7 +21,7 @@ nav {
 }
 
 @media ( min-width: 1600px ) {
-  html { font-size: var(--font-size-body-huge, 22px); }
+  html { font-size: var(--font-size-body-extra, 24px); }
 }
 
 h1, h2, h3, h4, h5 {
@@ -34,3 +34,10 @@ h3 { font-size: 1.8em; }
 h4 { font-size: 1.4em; }
 h5 { font-size: 1.2em; }
 h6 { font-size: 1.0em; }
+
+h1, h2, h3, h4, h5 {
+  padding-top: 0.5em;
+}
+p {
+  padding-top: 0.4em;
+}

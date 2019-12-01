@@ -1,6 +1,6 @@
 nav, aside {
   text-align: center;
-  padding: 0.5em;
+  /*padding: 0.5em;*/
 }
 nav ul, aside ul {
   list-style-image: none;

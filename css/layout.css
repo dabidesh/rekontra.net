@@ -90,8 +90,8 @@ footer {
 }
 
 
-
-@media only screen and (orientation: landscape) {
+/*only screen and*/
+@media (orientation: landscape) {
   .img-konti {
             display: grid;
             /*height: 100%; Файърфокс бъг*/

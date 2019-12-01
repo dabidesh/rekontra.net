@@ -6,9 +6,7 @@ header {
   padding-bottom: var(--spacing-layout-elements);
 }
 header a {
-  display: inline;
-}
-header a {
+  /*display: inline;*/
   color: #432559;
 }
 header a:hover {
