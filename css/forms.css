@@ -3,6 +3,11 @@
   font-family: "DejaVu Sans Mono", Inconsolata, monospace;
   width: 98%;
 }
+.copykod {
+  width: 30%;
+  margin: 1.2em 1.2em 1.2em 0.6em;
+  border-radius: 0.5em;
+}
 section input, section button {
   width: 100%;
   font-size: 1.2em;
@@ -16,7 +21,6 @@ button[type="submit"] {
 button[type="reset"] {
   border-bottom-right-radius: 1em;
 }
-
 input[type="checkbox"] {
   width: auto;
   transform: scale(4);

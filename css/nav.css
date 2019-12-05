@@ -35,3 +35,6 @@ aside a { display: block; width: 100%; color: #572441; }
 aside a:hover { background-color: #572441; color: #2d6649; }
 aside a img {margin-top: 0.5em;
 }
+
+.tuke {background: #522452; color:#2d672d;}
+.tuke0 {background-color: #572441; color:#2d6649;}

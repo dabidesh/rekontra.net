@@ -8,12 +8,13 @@
  <link href="https://rekontra.net/tabla.rss" type="application/rss+xml" rel="alternate" />
  <link rel="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/" />
  <link rel="stylesheet" href="css/site.css" />
- <!--<link rel="stylesheet" href="fontawesome/css/all.min.css" />-->
- <script src="https://kit.fontawesome.com/921995047e.js" crossorigin="anonymous"></script>
+ <!--<link rel="stylesheet" href="fontawesome/css/all.min.css" crossorigin="anonymous"/>-->
+ <script src="https://kit.fontawesome.com/921995047e.js" ></script>
  <link href="https://rekontra.net/" rel="canonical" />
  <link rel="shortcut icon" href="https://rekontra.net/favicon.png" type="image/png" />
- <script src="./js/lod.js"></script>
- <script src="./js/res-kr-0.1.8.js"></script>
+ <!-- <script src="./js/lod.js"></script>
+ <script src="./js/res-kr-0.1.8.js"></script> -->
+ <script src="./js/kr-lod.js"></script>
  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 </head >
 <body>
@@ -26,8 +27,8 @@
     <nav>
         <h2 id="nav">Навиг. <span >▼</span></h2>
         <ul id="nav-ul">
-        <li class="kr"><a href="https://rekontra.net/#osn" title="Отива в началото на основното съдържание">Към основното съдържание</a></li>
-        <li class="kr"><a href="https://rekontra.net/#olex" title="Отива в началото на другите препратки">Към другите препратки</a></li>
+        <li class="kr"><a href="#osn" title="Отива в началото на основното съдържание">Към основното съдържание</a></li>
+        <li class="kr"><a href="#olex" title="Отива в началото на другите препратки">Към другите препратки</a></li>
         <li><a class="tuke" href="https://rekontra.net/" title="Главна: най-новото и всичко най-интересно">Главна</a></li>
             <li><a href="https://rekontra.net/?s=osnovni-pravila-kontra" title="Урок 0: Основни правила в състезателната табла. Контра">Основни правила. Контра</a></li>
             <li><a href="https://rekontra.net/?s=rechnik-termini-i-zhargon" title="Урок 1: Речник на термините и жаргонните думи в бекгемъна">Речник — термини</a></li>
@@ -47,13 +48,13 @@
             <li><a href="https://rekontra.net/?s=za-sajta" title="Как да се ползва сайта?">За сайта</a></li>
             <li><a href="https://rekontra.net/?s=vryzka" title="Връзка с rekontra.net: имейл, телефон, бланка за съобщения">Връзка с rekontra.net</a></li>
         </ul>
-        
+
     </nav>
     <article id="osn">
-    
+
 
   <h2><a href="https://rekontra.net/?s=novini">Новото в сайта rekontra.net</a></h2>
-  
+
 <ul>
   <li><a href="?s=novini#petko" >Петко Костадинов e 2-ри на световното първенство по бекгемън!</a>
   </li>
@@ -69,20 +70,19 @@
   </li>
 </ul>
 
-    
+
 
     <h2><a href="https://rekontra.net/?s=poziciya-na-desetdnevkata">Позиция на десетдневката: 2. Взаимен холдинг</a></h2>
     <p>Позиция 2 е от мач между Бил Робърти и Пол Магрил (зелени) в далечната 1986 година. Представлява взаимен <a href="https://rekontra.net/?s=osnovni-strategii#holding">холдинг</a> – и двамата табладжии имат задържащи капии. Обикновено не е правилно да се напуска задържаща капия когато сте назад, но алтернативата е да се дадат един или два уязвими голи пула. При 22/13 пак са два, но поне са в <a href="https://rekontra.net/?s=rechnik-termini-i-zhargon#kyshta">къщата</a> на Бил.</p>
 
-<div class="img-konti">
-<figure>
+<figure class="img-konti">
 <img class="fit" src="./rekontra.net_files/холдинг-2-голи.png" alt="Взаимен холдинг" />
 <figcaption>П2. Резултат: 3 на 3(до 21). Пипаж: 171(зелени), 163(червени); разлика: 8(4.9%).</figcaption>
 </figure>
-</div>
 <button class="copykod" onclick="copyi()"><i class="fas fa-copy"></i> Копирай</button>
-<label for="idg">GNUbg ID (кликнете за избор, после копирайте и поставете в gnubg):
-<input type="text" class="pozi" id="idg" value="Position ID: cGfkgCHgc/AADQ Match ID: cImyAjAAGAAE" readonly=""></label>
+<label for="idg">GNUbg ID (Цъкнете за да копирате и поставете в gnubg, Edit-PasteID или Ctrl-V):
+<input type="text" class="pozi" id="idg" value="Position ID: cGfkgCHgc/AADQ Match ID: cImyAjAAGAAE" readonly></label>
+<!-- readonly="" алт. запис-->
 <script>
 function copyi() {
   var copyText = document.getElementById("idg");
@@ -90,7 +90,7 @@ function copyi() {
   document.execCommand("copy");
 }
 </script>
-<p>Файлове: <a href="https://rekontra.net/pozicii/10/%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%B5%D0%BD-%D1%85%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD%D0%B3-2-%D0%B3%D0%BE%D0%BB%D0%B8.sgf" title="Позицията в ГНУ Бекгемън формат">sgf с анализ 4 ply</a>, <a href="https://rekontra.net/pozicii/10/%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%B5%D0%BD-%D1%85%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD%D0%B3-2-%D0%B3%D0%BE%D0%BB%D0%B8.pos" title="Позицията в Джелифиш формат">pos</a></p>
+<p>Файлове: <a href="pozicii/10/взаимен-холдинг-2-голи.sgf" title="Позицията в ГНУ Бекгемън формат">sgf с анализ 4 ply</a>, <a href="pozicii/10/взаимен-холдинг-2-голи.pos" title="Позицията в Джелифиш формат">pos</a></p>
 <p><a href="https://rekontra.net/?s=poziciya-na-desetdnevkata#otg2">Правилен ход на позиция 2: Взаимен холдинг</a>.</p>
 
 <div class="rest">
@@ -128,7 +128,7 @@ function copyi() {
         <td>47.84%</td>
         <td>-0.22%</td>
         <td>22/13</td>
-      </tr> 
+      </tr>
       <tr>
         <td>37.2</td>
         <td>7.7</td>
@@ -139,7 +139,7 @@ function copyi() {
         <td>47.79%</td>
         <td>-0.27%</td>
         <td>21/16 6/2</td>
-      </tr> 
+      </tr>
       <tr>
         <td>37.4</td>
         <td>7.4</td>
@@ -150,7 +150,7 @@ function copyi() {
         <td>47.79%</td>
         <td>-0.27%</td>
         <td>21/16 8/4</td>
-      </tr> 
+      </tr>
       <tr>
         <td>35.3</td>
         <td>7.9</td>
@@ -161,7 +161,7 @@ function copyi() {
         <td>47.53%</td>
         <td>-0.54%</td>
         <td>13/9 13/8</td>
-      </tr> 
+      </tr>
     </table>
     </div>
 
@@ -169,9 +169,9 @@ function copyi() {
       <img class="fit" src="./rekontra.net_files/kamikadze.png" alt="Камикадзе" />
       <figcaption>П1. Резултат: 1 на 1(до 3). Пипаж: 144(зелени), 120(червени); разлика: 24(20%).</figcaption>
     </figure>
-<button onclick="copyi1()">Копирай</button>
+<button class="copykod" onclick="copyi1()">Копирай</button>
 <label for="idg1">GNUbg ID (кликнете за избор, после копирайте и поставете в gnubg):
-<input type="text" class="pozi" id="idg1" value="Position ID: 2O0GAwjLmgUAGw Match ID: UYlqABAACAAE" readonly/></label>
+<input type="text" class="pozi" id="idg1" value="Position ID: 2O0GAwjLmgUAGw Match ID: UYlqABAACAAE" readonly /></label>
 <script>
 function copyi1() {
   var copyText = document.getElementById("idg1");
@@ -185,7 +185,7 @@ function copyi1() {
       <img class="fit" src="./rekontra.net_files/kamikadze-shot.png" alt="Камикадзе" />
       <figcaption>П1. Резултат: 1 на 1(до 3). Пипаж: 144(зелени), 120(червени); разлика: 24(20%).</figcaption>
     </figure>
-<button onclick="copyi1()">Копирай</button>
+<button class="copykod" onclick="copyi1()">Копирай</button>
 <label for="idg3">GNUbg ID (кликнете за избор, после копирайте и поставете в gnubg):
 <input type="text" class="pozi" id="idg3" value="Position ID: 2O0GAwjLmgUAGw Match ID: UYlqABAACAAE" readonly/></label>
 <script>
@@ -197,22 +197,22 @@ function copyi1() {
 </script>
 <p>Файлове: <a href="pozicii/10/p1.sgf" title="Позицията в ГНУ Бекгемън формат" >sgf с анализ 4 ply</a>, <a href="pozicii/10/p1.pos" title="Позицията в Джелифиш формат" >pos</a></p>
 
-  
+
 
 
     <h2><a href="https://rekontra.net/?s=smelo-ili-sigurno">Урок 6: Стратегически и тактически критерии за смела или сигурна игра в спортната табла</a></h2>
     <p>Ако имате повече затворници, изоставате и по-силно поле, играйте смело. Не винаги е необходимо и 3-те критерия да са изпълнени.</p>
-    
-    
-    
+
+
+
     <h2><a href="https://rekontra.net/?s=osnovni-strategii">Урок 2: Основни стратегии и типове игри</a></h2>
     <p>Основните типове игри са: <a href="https://rekontra.net/?s=osnovni-strategii#nadbyagvane">надбягване</a>, <a href="https://rekontra.net/?s=ataka">атака</a>, <a href="https://rekontra.net/?s=osnovni-strategii#blokada">блокада</a>, <a href="https://rekontra.net/?s=osnovni-strategii#holding">задържане</a> и <a href="https://rekontra.net/?s=osnovni-strategii#bekgejm">бекгейм</a>. Типовете игри могат да се променят по време на партията по табла в зависимост от хвърлените зарове. Затова и <a href="https://rekontra.net/?s=rechnik-termini-i-zhargon#strategiya">стратегиите</a> се променят по време на играта.</p>
-    
+
 
     <h2><a href="https://rekontra.net/?s=rechnik-termini-i-zhargon">Урок 1: Речник на термините и жаргонните думи в бекгемъна</a></h2>
-    <p>Обновява се непрекъснато с термини и жаргонни думи от състезателната табла.</p> 
+    <p>Обновява се непрекъснато с термини и жаргонни думи от състезателната табла.</p>
     <h2>Най-нови термини и/или жаргонни думи</h2>
-    
+
 <ul>
 <li><a href="https://rekontra.net/?s=rechnik-termini-i-zhargon#barabino">Барабино</a></li>
 <li><a href="https://rekontra.net/?s=rechnik-termini-i-zhargon#sudzhuk">Суджук</a></li>
@@ -220,17 +220,17 @@ function copyi1() {
 </ul>
 
 
-    <p><a href="https://rekontra.net/#konti" title="Отива в началото на страницата">↑ Най-горе</a> | <a href="http://www.save-darina.org/">Спаси дете!</a><span class="kr"> | <a href="https://rekontra.net/#nav" title="Отива към основната навигация">Към навигацията</a> | <a href="https://rekontra.net/#olex" title="Отива в началото на другите препратки">Към другите препратки</a> | <a href="https://rekontra.net/#osn" title="Отива в началото на основното съдържание">Към основното съдържание</a></span></p>
-    
+    <p><a href="#konti" title="Отива в началото на страницата">↑ Най-горе</a> | <a href="http://www.save-darina.org/">Спаси дете!</a><span class="kr"> | <a href="#nav" title="Отива към основната навигация">Към навигацията</a> | <a href="#olex" title="Отива в началото на другите препратки">Към другите препратки</a> | <a href="#osn" title="Отива в началото на основното съдържание">Към основното съдържание</a></span></p>
+
     <section>
  <h2 id="forma">Бланка за мнения, въпроси и обратна връзка</h2>
- 
+
 <p>Единственото задължително поле е „текст“ !</p>
 
 <p>Коментирайте <a href="http://rekontra.net/">rekontra.net</a> като цяло!</p>
 <form action="https://rekontra.net/#forma" method="post" id="mnenieForma">
 <p>
-<label for="ime">Име и/или прякор: 
+<label for="ime">Име и/или прякор:
 
 <input type="text" name="ime" id="ime" value="" size="30" maxlength="66"></label>
 </p>
@@ -238,23 +238,23 @@ function copyi1() {
 <label for="email">Имейл (няма да се публикува): <input type="text" name="email" id="email" value="" size="30" maxlength="255"></label>
 </p>
 <p>
-<label for="sajt">Сайт (сървър за игра на табла, соц. мрежа, блог или друга препратка): 
+<label for="sajt">Сайт (сървър за игра на табла, соц. мрежа, блог или друга препратка):
 <input type="text" name="sajt" id="sajt" value="" size="30"></label>
 </p>
 <p>
-<label for="zaglavie">Заглавие (относно): 
+<label for="zaglavie">Заглавие (относно):
 <input type="text" name="zaglavie" id="zaglavie" value="" size="50"></label>
 <input type="hidden" name="hidi" value="ну">
 </p>
 <p>
-<label for="gnubgid">GNUbg ID (идентификатори на позицията и/или мача): 
+<label for="gnubgid">GNUbg ID (идентификатори на позицията и/или мача):
 <input type="text" name="gnubgid" id="gnubgid" value="" size="51" maxlength="51"></label>
 </p>
 <p>
 <label for="text"><strong>Текст (българският език се изписва с кирилица):</strong>
 <textarea name="text" id="text" cols="60" rows="10"></textarea></label></p>
-<p>                     
- <label for="ne" id="ne0"><input type="checkbox" id="ne" name="ne" value="не"> Да не се публикува!</label>                     
+<p>
+ <label for="ne" id="ne0"><input type="checkbox" id="ne" name="ne" value="не"> Да не се публикува!</label>
 </p>
 <p>
   <button name="submit" type="submit" id="submit" title="Изпраща бланката"><i class="fas fa-share"></i> Изпрати</button>
@@ -268,9 +268,14 @@ function copyi1() {
         <div id="oshte-div">
         <p><a href="http://www.save-darina.org/">Спаси дете!</a></p>
          <ul class="kr">
-          <li><a href="https://rekontra.net/#osn" title="Отива в началото на основното съдържание">Към основното съдържание</a></li>
-          <li><a href="https://rekontra.net/#nav" title="Отива към основната навигация">Към навигацията</a></li>
-        </ul>  
+          <li><a href="#osn" title="Отива в началото на основното съдържание">Към основното съдържание</a></li>
+          <li><a href="#nav" title="Отива към основната навигация">Към навигацията</a></li>
+        </ul>
+        <ul>
+          <li><a class="tuke0" href="?s=sredata-na-igrata" title="Урок 4: Средата на играта на табла">Главна: средата на играта</a></li>
+          <li><a href="?s=sredata-na-igrata&amp;p=koga-se-ubivat-pulove">Кога се убиват пулове?</a></li>
+          <li><a href="?s=sredata-na-igrata&amp;p=koga-ne-se-ubivat-pulove">Кога не се убиват пулове?</a></li>
+        </ul>
                 <div class="img-konti">
         <a href="https://rekontra.net/?s=sredata-na-igrata&amp;p=koga-se-ubivat-pulove"><figure class="fcircle" ><img class="fit" src="./rekontra.net_files/чаканка-убива-пул-200.png" alt="Пример за убиване на пулове"></figure><br>Пример за убиване на пул</a>
         </div>
@@ -278,7 +283,7 @@ function copyi1() {
         <a href="https://rekontra.net/?s=nachalo-na-igrata&amp;p=koga-se-pravyat-sudzhuci"><figure class="fcircle" ><img class="fit" src="./rekontra.net_files/sudzhuk.png" alt="Позиция, в която се правят суджуци"></figure><br>Кога се правят суджуци?</a>
         </div>
         <h2><a href="https://rekontra.net/?s=novini" title="Най-новото в и новини от света на таблата">Най-новото</a></h2>
-        
+
 <ul>
 <li>Редактирана е страницата <a href="https://rekontra.net/?s=knigi-za-tabla">„Книги за табла“</a>.</li>
 <li>Добавена е нова страница <a href="https://rekontra.net/?s=razni-gnubg">„Разни съвети (30), gnubg анализира“</a>.</li>
@@ -286,7 +291,7 @@ function copyi1() {
 <li>Редактирана е страницата <a href="https://rekontra.net/?s=nachalo-na-igrata&amp;p=koga-se-pravyat-sudzhuci">„Кога се правят суджуци?“</a>.</li>
 </ul>
         <h2><a href="https://rekontra.net/?s=rechnik-termini-i-zhargon" title="Урок 1: Речник на термините и жаргонните думи в бекгемъна">Речник</a></h2>
-        
+
 <ul>
 <li><a href="https://rekontra.net/?s=rechnik-termini-i-zhargon#barabino">Барабино</a></li>
 <li><a href="https://rekontra.net/?s=rechnik-termini-i-zhargon#sudzhuk">Суджук</a></li>
@@ -305,8 +310,8 @@ function copyi1() {
 <footer>
 <p><span class="copyleft">©</span> 2013+ | Лиценз: <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.bg">Криейтив Комънс — Признание — Споделяне на споделеното 3.0</a> | Проверка: <a href="https://www.gnu.org/software/gnubg/">gnubg</a> | Валиден код: <a href="https://validator.w3.org/check/referer">html5</a>, <a href="https://jigsaw.w3.org/css-validator/check/referer/">CSS3</a></p>
         <p>
-          <a href="https://rekontra.net/tabla.rss" title="Можете да следите за новото в rekontra.net чрез Вашия rss-четец, tabla.rss"><i class="fas fa-rss-square"></i> RSS: абонирайте се за новото в сайта (tabla.rss)</a> | 
-            <a href="https://feeds.feedburner.com/rekontra" title="Можете да следите за новото в rekontra.net чрез Вашия rss-четец, feedburner"><i class="fas fa-rss"></i> RSS: с помощта на feedburner</a> | 
+          <a href="https://rekontra.net/tabla.rss" title="Можете да следите за новото в rekontra.net чрез Вашия rss-четец, tabla.rss"><i class="fas fa-rss-square"></i> RSS: абонирайте се за новото в сайта (tabla.rss)</a> |
+            <a href="https://feeds.feedburner.com/rekontra" title="Можете да следите за новото в rekontra.net чрез Вашия rss-четец, feedburner"><i class="fas fa-rss"></i> RSS: с помощта на feedburner</a> |
          <a href="https://www.facebook.com/rekontra.net"><img src="./rekontra.net_files/fb-icon-32.png" alt="Фейсбук икона 32" class="peng"> Фейсбук</a>
         </p>
 
