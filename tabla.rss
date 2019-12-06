@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    <atom:link href="https://rekontra.net/tabla.rss" rel="self" type="application/rss+xml" />
     <title>Таблата като като забавление или спорт — бекгемън</title>
     <description>Стратегии, тактики, съвети и правила в състезателната табла под формата на безплатни уроци.</description>
     <link>http://rekontra.net/</link>
