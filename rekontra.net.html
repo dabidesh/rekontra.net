@@ -77,19 +77,21 @@
 
 <figure class="img-konti">
 <img class="fit" src="./rekontra.net_files/холдинг-2-голи.png" alt="Взаимен холдинг" />
+<div class="centered-bottom-but" ><i class="fas fa-history"></i></div>
 <figcaption>П2. Резултат: 3 на 3(до 21). Пипаж: 171(зелени), 163(червени); разлика: 8(4.9%).</figcaption>
+
 </figure>
-<button class="copykod" onclick="copyi()"><i class="fas fa-copy"></i> Копирай</button>
-<label for="idg">GNUbg ID (Цъкнете за да копирате и поставете в gnubg, Edit-PasteID или Ctrl-V):
+<button class="copykod" onclick="copyid(document.getElementById('idg'))"><i class="fas fa-copy"></i> Копирай позицията за gnubg</button>
+<label for="idg">GNUbg ID (Цъкнете за да копирате позицията и я поставете в gnubg – Edit-PasteID или Ctrl-V):
 <input type="text" class="pozi" id="idg" value="Position ID: cGfkgCHgc/AADQ Match ID: cImyAjAAGAAE" readonly></label>
-<!-- readonly="" алт. запис-->
+<!-- readonly="" алт. запис
 <script>
 function copyi() {
   var copyText = document.getElementById("idg");
   copyText.select();
   document.execCommand("copy");
 }
-</script>
+</script>-->
 <p>Файлове: <a href="pozicii/10/взаимен-холдинг-2-голи.sgf" title="Позицията в ГНУ Бекгемън формат">sgf с анализ 4 ply</a>, <a href="pozicii/10/взаимен-холдинг-2-голи.pos" title="Позицията в Джелифиш формат">pos</a></p>
 <p><a href="https://rekontra.net/?s=poziciya-na-desetdnevkata#otg2">Правилен ход на позиция 2: Взаимен холдинг</a>.</p>
 
@@ -225,7 +227,7 @@ function copyi1() {
     <section>
  <h2 id="forma">Бланка за мнения, въпроси и обратна връзка</h2>
 
-<p>Единственото задължително поле е „текст“ !</p>
+<p><strong>Единственото задължително поле е „текст“ !</strong></p>
 
 <p>Коментирайте <a href="http://rekontra.net/">rekontra.net</a> като цяло!</p>
 <form action="https://rekontra.net/#forma" method="post" id="mnenieForma">

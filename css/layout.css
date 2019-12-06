@@ -2,9 +2,17 @@
   padding: 0;
   margin: 0;
   box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -o-box-sizing: inherit;
+  -ms-box-sizing: inherit;
 }
 html {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
 }
 
 #konti {
@@ -14,7 +22,7 @@ html {
                        "na na na"
                        "art art art"
                        "asi asi asi"
-                       "foot  foot foot";
+                       "foot foot foot";
   grid-template-columns: 1fr;
   /*grid-column-gap: 2em;*/
   /*grid-row-gap: 3em;
@@ -26,7 +34,7 @@ html {
 }
   
 header, nav, article, aside, footer {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: var(--spacing-layout-elements);
     /*max-width: 100%;*/
 }
@@ -99,4 +107,9 @@ footer {
             max-height: 95vh;
             margin: auto;
        }
+}
+.img-konti {
+  display: grid;
+  position: relative;
+  text-align: center;
 }

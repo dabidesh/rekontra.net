@@ -12,12 +12,14 @@ aside {
 }
 
 #konti {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 img {
-  width: 100%;
+  width: 99%;
   border-radius: 1em;
+  margin: auto;
+
 }
 
 ::selection {
@@ -46,4 +48,22 @@ img {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #287014;
+}
+
+.centered-bottom-but {
+  position: absolute;
+  bottom: 55%;
+  left: 48%;
+  width: 20px; /*4%;*/
+  height: 20px; /*4%;*/
+  font-size: 20px;
+  background-color: #fff;
+  color: #000;
+  opacity: 0.7;
+  line-height: 0;
+  cursor: pointer;
+}
+.centered-bottom-but:hover {
+  background-color: #329632;
+  color: #fff;
 }

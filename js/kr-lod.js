@@ -29,6 +29,12 @@ function pokKrij0() {
       elKr.style.display= 'block';
 }
 
+function copyid(id) {
+  var copyText = id;
+  copyText.select();
+  document.execCommand("copy");
+}
+
 
 function getElementById0(name) {
 var o= document.getElementById
