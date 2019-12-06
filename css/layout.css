@@ -36,6 +36,7 @@ html {
 header, nav, article, aside, footer {
     /* border: 1px solid #000; */
     border-radius: var(--spacing-layout-elements);
+    width: 100%; /*ФФ лек бъг*/
     /*max-width: 100%;*/
 }
 
@@ -44,12 +45,14 @@ header {
 }
 nav {
   grid-area: na;
+  height: 4em;
 }
 article {
   grid-area: art; 
 }
 aside {
- grid-area:  asi;
+  grid-area: asi;
+  height: 4em;
 }
 footer {
  grid-area:  foot;
@@ -81,6 +84,9 @@ footer {
   #oshte-div {
     display: none;
   }
+  nav {
+    height: auto;
+  }
 }
 
 @media (min-width: 1024px) {  
@@ -92,6 +98,9 @@ footer {
          }
   #nav-ul, #oshte-div {
     display: block;
+  }
+  aside {
+    height: auto;
   }
 }
 

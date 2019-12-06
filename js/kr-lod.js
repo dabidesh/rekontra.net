@@ -16,17 +16,25 @@ window.onload=function() {
 function pokKrij() {
     elKr= getElementById0('nav-ul');
     //alert(elKr.style.display);
-    if (elKr.style.display == "block") 
+    if (elKr.style.display == "block") {
       elKr.style.display= 'none';
-    else
+      document.getElementById("navid").style.height = "4em";
+    }
+    else {
       elKr.style.display= 'block';
+      document.getElementById("navid").style.height = "auto";
+    }
 }
 function pokKrij0() {
     elKr= getElementById0('oshte-div');
-    if (elKr.style.display == "block") 
+    if (elKr.style.display == "block") {
       elKr.style.display= 'none';
-    else
+      document.getElementById("asideid").style.height = "4em";
+    }
+    else {
       elKr.style.display= 'block';
+      document.getElementById("asideid").style.height = "auto";
+    }
 }
 
 function copyid(id) {
