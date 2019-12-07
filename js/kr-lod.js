@@ -42,7 +42,16 @@ function copyid(id) {
   copyText.select();
   document.execCommand("copy");
 }
-
+function smenipos(id1, id2) {
+  if (id1.style.display == 'block') {
+    id1.style.display= 'none';
+    id2.style.display= 'block';
+  }
+  else {
+    id1.style.display= 'block';
+    id2.style.display= 'none';
+  }
+}
 
 function getElementById0(name) {
 var o= document.getElementById

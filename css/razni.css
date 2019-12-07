@@ -67,3 +67,7 @@ img {
   background-color: #329632;
   color: #fff;
 }
+
+#обр1 {
+  display: none;
+}
