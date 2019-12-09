@@ -42,14 +42,14 @@ function pokKrij0() {
 }
 
 function copyid(id) {
-  var copyText = id;
-  copyText.select();
-  document.execCommand("copy");
+  copyText = id
+  copyText.select()
+  document.execCommand("copy")
 }
 function smenipos(id1, id2) {
   style = window.getComputedStyle(id1)
   display = style.getPropertyValue('display')
-  //alert(id2.style.display)
+  //alert(display)
   if (display == 'block') {
     id1.style.display= 'none'
     id2.style.display= 'block'
