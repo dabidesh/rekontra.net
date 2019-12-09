@@ -11,7 +11,7 @@
 footer { 
   text-align: center; 
   font-size: 16px; 
-  background: #49662d; 
+  background-color: #49662d; 
   color: #fff;
   padding-top: 4em;
   padding-bottom: 4em;
@@ -23,7 +23,3 @@ footer a {
 footer a { 
   color: #412457; 
 }
-/*footer a:hover { 
-  background:#412457; 
-  color: #49662d; 
-}*/

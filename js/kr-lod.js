@@ -47,16 +47,16 @@ function copyid(id) {
   document.execCommand("copy");
 }
 function smenipos(id1, id2) {
-  style = window.getComputedStyle(id1);
-  display = style.getPropertyValue('display');
-  //alert(id2.style.display);
+  style = window.getComputedStyle(id1)
+  display = style.getPropertyValue('display')
+  //alert(id2.style.display)
   if (display == 'block') {
-    id1.style.display= 'none';
-    id2.style.display= 'block';
+    id1.style.display= 'none'
+    id2.style.display= 'block'
   }
   else {
-    id1.style.display= 'block';
-    id2.style.display= 'none';
+    id1.style.display= 'block'
+    id2.style.display= 'none'
   }
 }
 

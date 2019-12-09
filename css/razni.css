@@ -16,10 +16,9 @@ aside {
 }
 
 img {
-  width: 99%;
+  width: 100%;
   border-radius: 1em;
   margin: auto;
-
 }
 
 ::selection {
@@ -49,14 +48,23 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: #287014;
 }
-
+figure div {
+  position: relative;
+}
 .centered-bottom-but {
   position: absolute;
-  bottom: 55%;
-  left: 48%;
-  width: 20px; /*4%;*/
-  height: 20px; /*4%;*/
-  font-size: 20px;
+ /*  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: auto; */
+  width: 24px; /*4%;20px*/
+  height: 24px; /*4%;20px*/
+  font-size: 24px;
   background-color: #fff;
   color: #000;
   opacity: 0.7;
@@ -67,7 +75,42 @@ img {
   background-color: #329632;
   color: #fff;
 }
+.rezpips {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  /* transform: translate(0, 50%); */
 
-#обр1 {
+  background-color: #fff;
+  color: #000;
+  opacity: 0.7;
+
   display: none;
+}
+
+.pokrezpis {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  /* transform: translate(0, 50%); */
+
+  background-color: #fff;
+  color: #000;
+  opacity: 0.7;
+}
+.smenipos:hover div {
+  opacity: 0.7;
+}
+figure, img, div {
+  border: 1px solid green;
+}
+
+.obr {
+  display: none;
+}
+
+.ico {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
 }

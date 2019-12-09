@@ -39,7 +39,7 @@ function copyi2() {
 <p>21/16 прави <a href="?s=rechnik-termini-i-zhargon#bilder">билдер</a> за правене на капия във външното поле на Пол. Ако не мести този <a href="?s=rechnik-termini-i-zhargon#zatvornik">затворник</a>, има опасност Бил да се стовари с капия върху него (има огън от три). Освен това ще бъде атакуван при всички случаи. 13/9 направо атакува за капия – <a href="?s=rechnik-termini-i-zhargon#slot">слот</a>. Освен това дублира 4-ката.</p>
 <div class="rest">
 <table class="poz" >
-<caption>Най-добрите ходове за позиция 1</caption>
+<caption>Най-добрите ходове за позиция 2</caption>
   <tr class="tek" >
     <th><abbr title="Вероятност за победа" >В. за поб.</abbr></th>
     <th><abbr title="Вероятност за победа с марс" >В. за марс</abbr></th>

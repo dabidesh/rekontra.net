@@ -1,9 +1,6 @@
 article {
   background: #fff;
   color: #000;
-}
-
-article {
   padding: 1em;
 }
 
@@ -14,6 +11,7 @@ article a {
 article h1 a, article h2 a, article h3 a, article li a {
   display: block;
   width: 100%;
+  padding-left: 1em;
 }
 
 article a {

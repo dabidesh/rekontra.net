@@ -104,7 +104,6 @@ footer {
   }
 }
 
-
 /*only screen and */
 @media (orientation: landscape) {
   .img-konti {
@@ -121,4 +120,5 @@ footer {
   display: grid;
   position: relative;
   text-align: center;
+  /* height: 100%; */
 }

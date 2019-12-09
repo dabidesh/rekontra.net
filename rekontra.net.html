@@ -7,14 +7,15 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <link href="https://rekontra.net/tabla.rss" type="application/rss+xml" rel="alternate" />
  <link rel="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/" />
- <link rel="stylesheet" href="css/site.css" />
- <!--<link rel="stylesheet" href="fontawesome/css/all.min.css" crossorigin="anonymous"/>-->
+ <link rel="stylesheet" href="css/site.css?v=10" />
+ <!--<link rel="stylesheet" href="fontawesome/css/all.min.css" />
+ crossorigin="anonymous"-->
  <script src="https://kit.fontawesome.com/921995047e.js" ></script>
  <link href="https://rekontra.net/" rel="canonical" />
  <link rel="shortcut icon" href="https://rekontra.net/favicon.png" type="image/png" />
  <!-- <script src="./js/lod.js"></script>
  <script src="./js/res-kr-0.1.8.js"></script> -->
- <script src="./js/kr-lod.js"></script>
+ <script src="./js/kr-lod.js?v=10"></script>
  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 </head >
 <body>
@@ -76,16 +77,23 @@
     <p>Позиция 2 е от мач между Бил Робърти и Пол Магрил (зелени) в далечната 1986 година. Представлява взаимен <a href="https://rekontra.net/?s=osnovni-strategii#holding">холдинг</a> – и двамата табладжии имат задържащи капии. Обикновено не е правилно да се напуска задържаща капия когато сте назад, но алтернативата е да се дадат един или два уязвими голи пула. При 22/13 пак са два, но поне са в <a href="https://rekontra.net/?s=rechnik-termini-i-zhargon#kyshta">къщата</a> на Бил.</p>
 
 <figure class="img-konti">
-<img id="по1" class="fit" src="./rekontra.net_files/холдинг-2-голи-по.png" alt="Взаимен холдинг" />
-<img id="обр1" class="fit" src="./rekontra.net_files/холдинг-2-голи-обр.png" alt="Взаимен холдинг" />
-<div onclick="smenipos(document.getElementById('по1'), document.getElementById('обр1'))" class="centered-bottom-but" ><i class="fas fa-history"></i></div>
+<div>
+  <img id="po1" class="fit" src="./rekontra.net_files/холдинг-2-голи-по.png" alt="Взаимен холдинг" />
+  <img id="obr1" class="fit obr" src="./rekontra.net_files/холдинг-2-голи-обр.png" alt="Взаимен холдинг" />
+  <div onclick="smenipos(document.getElementById('po1'), document.getElementById('obr1'))" class="centered-bottom-but" title="Обърни посоката"><i class="fas fa-history"></i></div>
+  <div id="rezpis1" class="rezpips" >&nbsp;&nbsp;&nbsp;3 на 3(до 21),171,163 <span onclick="document.getElementById('rezpis1').style.display='none'">Х</span></span></div>
+  <div id="rezpis2" class="pokrezpis" onclick="document.getElementById('rezpis1').style.display='block'">п</div>
+</div>
 <figcaption>П2. Резултат: 3 на 3(до 21). Пипаж: 171(зелени), 163(червени); разлика: 8(4.9%).</figcaption>
 
 </figure>
-<button class="copykod" onclick="copyid(document.getElementById('idg'))"><i class="fas fa-copy"></i> Копирай позицията за gnubg</button>
+<button class="zapoz" onclick="copyid(document.getElementById('idg'))" title="Копира позицията за gnubg"><img class="ico" src="./svg/paste.svg" alt="Иконка постави"> Копирай поз. за gnubg</button>
+
+<button class="zapoz" onclick="smenipos(document.getElementById('po1'), document.getElementById('obr1'))" title="Обръща посоката на движение на пуловете"><i class="fas fa-history"></i> Обърни посоката</button>
 <label for="idg">GNUbg ID (Цъкнете за да копирате позицията и я поставете в gnubg – Edit-PasteID или Ctrl-V):
 <input type="text" class="pozi" id="idg" value="Position ID: cGfkgCHgc/AADQ Match ID: cImyAjAAGAAE" readonly></label>
 <!-- readonly="" алт. запис
+  <i class="fas fa-copy"></i>
 <script>
 function copyi() {
   var copyText = document.getElementById("idg");
@@ -98,7 +106,7 @@ function copyi() {
 
 <div class="rest">
     <table class="poz" >
-    <caption>Най-добрите ходове за позиция 1</caption>
+    <caption>Най-добрите ходове за позиция 2</caption>
       <tr>
         <th><abbr title="Вероятност за победа" >В. за поб.</abbr></th>
         <th><abbr title="Вероятност за победа с марс" >В. за марс</abbr></th>
@@ -314,10 +322,10 @@ function copyi1() {
 <p><span class="copyleft">©</span> 2013+ | Лиценз: <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.bg">Криейтив Комънс — Признание — Споделяне на споделеното 3.0</a> | Проверка: <a href="https://www.gnu.org/software/gnubg/">gnubg</a> | Валиден код: <a href="https://validator.w3.org/check/referer">html5</a>, <a href="https://jigsaw.w3.org/css-validator/check/referer/">CSS3</a>, <a href="https://validator.w3.org/feed/check.cgi?url=https%3A//rekontra.net/tabla.rss" >rss2</a></p>
         <p>
           <a href="https://rekontra.net/tabla.rss" title="Можете да следите за новото в rekontra.net чрез Вашия rss-четец, tabla.rss"><i class="fas fa-rss-square"></i> RSS: абонирайте се за новото в сайта (tabla.rss)</a> |
-            <a href="https://feeds.feedburner.com/rekontra" title="Можете да следите за новото в rekontra.net чрез Вашия rss-четец, feedburner"><i class="fas fa-rss"></i> RSS: с помощта на feedburner</a> |
+            <a href="https://feeds.feedburner.com/rekontra" title="Можете да следите за новото в rekontra.net чрез Вашия rss-четец, feedburner"> <img class="ico" src="./svg/rss-solid.svg" alt="rss иконка" /> RSS: с помощта на feedburner</a> |
          <a href="https://www.facebook.com/rekontra.net"><img src="./rekontra.net_files/fb-icon-32.png" alt="Фейсбук икона 32" class="peng"> Фейсбук</a>
         </p>
-
+<!-- <i class="fas fa-rss"></i> -->
 <p><a href="http://www.save-darina.org/">Спаси дете!</a> | <a href="https://rekontra.net/#konti" title="Отива в началото на страницата">↑ Най-горе</a><span class="kr"> | <a href="https://rekontra.net/#nav" title="Отива към основната навигация">Към навигацията</a> | <a href="https://rekontra.net/#olex" title="Отива в началото на другите препратки">Към другите препратки</a> | <a href="https://rekontra.net/#osn" title="Отива в началото на основното съдържание">Към основното съдържание</a></span></p>
 </footer>
 </div>
