@@ -47,21 +47,12 @@ function copyid(id) {
   document.execCommand("copy");
 }
 function smenipos(id1, id2) {
-<<<<<<< HEAD
   style = window.getComputedStyle(id1)
   display = style.getPropertyValue('display')
   //alert(id2.style.display)
   if (display == 'block') {
     id1.style.display= 'none'
     id2.style.display= 'block'
-=======
-  style = window.getComputedStyle(id1);
-  display = style.getPropertyValue('display');
-  //alert(id2.style.display);
-  if (display == 'block') {
-    id1.style.display= 'none';
-    id2.style.display= 'block';
->>>>>>> 6b6a50f1b0781221035385ebf45257990049835a
   }
   else {
     id1.style.display= 'block'
