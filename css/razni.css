@@ -70,6 +70,7 @@ figure div {
   opacity: 0.7;
   line-height: 0;
   cursor: pointer;
+  border: none;
 }
 .centered-bottom-but:hover, .pokrezpips:hover, .krrezpips:hover {
   background-color: #329632;
@@ -77,6 +78,7 @@ figure div {
 }
 .krrezpips {
   display: block;
+  border: 0;
 }
 .rezpips {
   position: absolute;
@@ -97,14 +99,17 @@ figure div {
   top: 50%;
   left: 0;
   /* transform: translate(0, 50%); */
-
+  
+  border: 1px solid #000;
+  width: 30px;
+  height: 28px;
+  font-size: 24px;
   background-color: #fff;
   color: #000;
   opacity: 0.7;
-
   cursor: pointer;
 }
-.pokrezpips
+.pokrezpips,
 .smenipos:hover div {
   opacity: 0.7;
 }
@@ -131,3 +136,6 @@ figure, img, div {
 .she {
   color: red;
 }
+
+
+
