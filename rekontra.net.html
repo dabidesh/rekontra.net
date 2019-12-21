@@ -35,7 +35,14 @@
             <li><a href="https://rekontra.net/?s=rechnik-termini-i-zhargon" title="Урок 1: Речник на термините и жаргонните думи в бекгемъна">Речник — термини</a></li>
             <li><a href="https://rekontra.net/?s=osnovni-strategii" title="Урок 2: Основни стратегии и типове игри в таблата">Основни стратегии</a></li>
             <li><a href="https://rekontra.net/?s=nachalo-na-igrata" title="Урок 3: Начало на играта на табла">Начало на играта</a></li>
-            <li><a href="https://rekontra.net/?s=sredata-na-igrata" title="Урок 4: Стратегии в средата на играта на бекгемън">Средата на играта</a></li>
+            <li><a href="https://rekontra.net/?s=sredata-na-igrata" title="Урок 4: Стратегии в средата на играта на бекгемън">Средата на играта</a>
+              <input class="input0" type="checkbox" id="toggle-1" />
+              <label class="label0" for="toggle-1" >+</label>
+              <ul class="submenu">
+                <li><a href="?s=sredata-na-igrata&amp;p=koga-se-ubivat-pulove">Кога се убиват пулове?</a></li>
+                <li><a href="?s=sredata-na-igrata&amp;p=koga-ne-se-ubivat-pulove">Кога не се убиват пулове?</a></li>
+              </ul>
+            </li>
             <li><a href="https://rekontra.net/?s=smelo-ili-sigurno" title="Урок 5: Стратегически и тактически критерии за смела или сигурна игра в таблата">Смело или сигурно?</a></li>
             <li><a href="https://rekontra.net/?s=ataka" title="Урок 6: Игра на атака (блиц). Стратегия за изхвърляне">Атака</a></li>
             <li><a href="https://rekontra.net/?s=bekgejm-napadenie" title="Урок 7: Бекгейм. Защитна игра (нападение)">Бекгейм (нападение)</a></li>
@@ -80,11 +87,20 @@
 <div>
   <img id="po1" class="fit po" src="./rekontra.net_files/холдинг-2-голи-по.png" alt="Взаимен холдинг" />
   <img id="obr1" class="fit obr" src="./rekontra.net_files/холдинг-2-голи-обр.png" alt="Взаимен холдинг" />
-  <button onclick="smenipos(document.getElementById('po1'), document.getElementById('obr1'))" class="centered-bottom-but" title="Обърни посоката"><i class="fas fa-history"></i></button>
-  <div id="rezpis1" class="rezpips" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="aze" >3</span> на <span class="she" >3</span>(до 21)|<span class="aze" >171</span>,<span class="she" >163</span> <button class="krrezpips" onclick="document.getElementById('rezpis1').style.display='none'" title="Затвори">Затвори Х</button></div>
-  <button id="rezpis2" class="pokrezpips" onclick="document.getElementById('rezpis1').style.display='block'" title="Показва резултата и пипажа"><i class="fas fa-signal"></i></button>
+
+  <button onclick="smenipos(document.getElementById('po1'), document.getElementById('obr1'))" class="centered-bottom-but" title="Обърни посоката"><i class="fas fa-history"></i>
+  </button>
+
+  <button id="rezpips2" class="pokrezpips" onclick="document.getElementById('rezpips1').style.display='block'" title="Показва резултата и пипажа"><i class="fas fa-signal"></i>
+  </button>
+
+  <div id="rezpips1" class="rezpips" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="aze" >3</span> на <span class="she" >3</span>(до 21)|<span class="aze" >171</span>,<span class="she" >163</span> 
+    <button class="krrezpips" onclick="document.getElementById('rezpips1').style.display='none'" title="Затвори">Затвори Х</button>
+  </div>
+  
 </div>
-<figcaption>П2. Резултат: 3 на 3(до 21). Пипаж: 171(зелени), 163(червени); разлика: 8(4.9%).</figcaption>
+
+<figcaption>П2. Резултат: <span class="aze" >3</span> на <span class="she" >3</span>(до 21). Пипаж: <span class="aze" >171(зелени)</span>, <span class="she" >163(червени)</span>; разлика: 8(4.9%).</figcaption>
 
 </figure>
 <button class="zapoz" onclick="copyid(document.getElementById('idg'))" title="Копира позицията за gnubg"><img class="ico" src="./svg/paste.svg" alt="Иконка постави"> Копирай поз. за gnubg</button>

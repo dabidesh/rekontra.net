@@ -26,13 +26,19 @@ nav a {
   width: 100%; 
   color: #522452;
 }
+
 nav h2, #olex {
 cursor: pointer;
 }
 nav a:hover { background: #522452; color:#2d672d; }
 
-aside a { display: block; width: 100%; color: #572441; }
-aside a:hover { background-color: #572441; color: #2d6649; }
+aside a, .submenu a { 
+  display: block;
+  width: 100%;
+  color: #572441;
+  background-color: #2d6649;
+}
+aside a:hover, .submenu a:hover { background-color: #572441; color: #2d6649; }
 aside a img {margin-top: 0.5em;
 }
 
