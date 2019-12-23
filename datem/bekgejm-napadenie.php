@@ -25,11 +25,13 @@ if ($numGet==2) {
 }
 
 $glavna= ($podstr['glavna'][1]==true) ? 'class= "tuke0"' : '';
-$koga_se= ($podstr['recirkulaciya-na-silnata-strana'][1]==true) ? 'class= "tuke0"' : '';
+$recirkulaciya0= ($podstr['recirkulaciya-na-silnata-strana'][1]==true) ? 'class= "tuke0"' : '';
 $aside='
 <ul>
 <li><a '.$glavna.' href="?s=bekgejm-napadenie" title="Урок 4: Бекгейм. Защитна игра (нападение)" >Главна: бекгейм (нападение)</a></li>
-<li><a '.$koga_se.' href="?s=bekgejm-napadenie&amp;p=recirkulaciya-na-silnata-strana" >Рециркулация на силната страна</a></li>
+';
+$aside0='
+<li><a '.$recirkulaciya0.' href="?s=bekgejm-napadenie&amp;p=recirkulaciya-na-silnata-strana" >Рециркулация на силната страна</a></li>
 </ul>
 ';
 

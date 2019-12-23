@@ -31,6 +31,8 @@ $koga_ne_se= ($podstr['koga-ne-se-ubivat-pulove'][1]==true) ? 'class= "tuke0"' :
 $aside='
 <ul>
 <li><a '.$glavna.' href="?s=sredata-na-igrata" title="Урок 4: Средата на играта на табла" >Главна: средата на играта</a></li>
+';
+$aside0='
 <li><a '.$koga_se.' href="?s=sredata-na-igrata&amp;p=koga-se-ubivat-pulove" >Кога се убиват пулове?</a></li>
 <li><a '.$koga_ne_se.' href="?s=sredata-na-igrata&amp;p=koga-ne-se-ubivat-pulove" >Кога не се убиват пулове?</a></li>
 </ul>

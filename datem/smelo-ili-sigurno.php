@@ -30,6 +30,8 @@ $primeri_za_smela= ($podstr['primeri-za-smela-igra'][1]==true) ? 'class= "tuke0"
 $aside='
 <ul>
 <li><a '.$glavna.' href="?s=smelo-ili-sigurno" title="Урок 5: Смело или сигурно?" >Главна: смело или сигурно?</a></li>
+';
+$aside0='
 <li><a '.$primeri_za_smela.' href="?s=smelo-ili-sigurno&amp;p=primeri-za-smela-igra" >Примери за смела игра</a></li>
 </ul>
 ';

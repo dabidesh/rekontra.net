@@ -75,7 +75,7 @@ header span {
   transition: opacity 1s ease-in, color 2s ease-in;
 }
 
-body.loaded header span {
+body.loaded h1 span {
   opacity: 1;
   /* transform: translateX(0); */
   color: #432559;

@@ -42,12 +42,14 @@ if ($numGet==2) {
 }
 
 $glavna= ($podstr['glavna'][1]==true) ? 'class= "tuke0"' : '';
-$koga_se= ($podstr['koga-se-pravyat-sudzhuci'][1]==true) ? 'class= "tuke0"' : '';
+$koga_se0= ($podstr['koga-se-pravyat-sudzhuci'][1]==true) ? 'class= "tuke0"' : '';
   
 $aside='
 <ul>
 <li><a '.$glavna.' href="?s=nachalo-na-igrata" title="Урок 3: Начало на играта на табла" >Главна: начало на играта</a></li>
-<li><a '.$koga_se.' href="?s=nachalo-na-igrata&amp;p=koga-se-pravyat-sudzhuci" >Кога се правят суджуци?</a></li>
+';
+$aside0='
+<li><a '.$koga_se0.' href="?s=nachalo-na-igrata&amp;p=koga-se-pravyat-sudzhuci" >Кога се правят суджуци?</a></li>
 </ul>
 ';
 

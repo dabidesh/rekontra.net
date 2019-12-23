@@ -222,3 +222,36 @@ display: inline;
   cursor: pointer;
 }
 
+.input0[type=checkbox] {
+  /*   position: absolute;
+    top: -9999px;
+    left: -9999px; */
+    display: none;
+  }
+  .label0 {
+   -webkit-appearance: push-button;
+   -moz-appearance: button;
+   display: block;  /*-block*/
+   cursor: pointer;
+   border: none;
+  }
+  
+  /* Default State */
+  ul.submenu {
+   display: block;
+  }
+  
+  /* Toggled State */
+  .input0[type=checkbox]:checked ~ ul.submenu {
+    display: none;
+  }
+  .input0[type=checkbox]:checked ~ .label0 {
+    background-color: #001D00;
+  }
+  .input0[type=checkbox]:checked ~ .label0:hover {
+    background-color: #329632;
+  }
+  
+  
+  
+

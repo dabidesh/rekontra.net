@@ -19,6 +19,7 @@ $glavenurl= 'https://rekontra.net/';
 $kanonichen= $glavenurl;
 $kanonichen_p='';
 $aside='';
+$aside0='';
 //файл, бр. подстр. (1 - една страница, 2 - n подстраници)
 $uatStranici['glavna']= array ('glavna', 2);
 $uatStranici['osnovni-pravila-kontra']= array ('osnovni-pravila-kontra', 1);
@@ -271,11 +272,35 @@ function safeurl($s)
             <li><a <?php if(isset($class_osnovni)) echo $class_osnovni; ?> href="?s=osnovni-pravila-kontra" title="Урок 0: Основни правила в състезателната табла. Контра" >Основни правила. Контра</a></li>
             <li><a <?php if(isset($class_rechnik)) echo $class_rechnik; ?> href="?s=rechnik-termini-i-zhargon" title="Урок 1: Речник на термините и жаргонните думи в бекгемъна" >Речник — термини</a></li>
             <li><a <?php if(isset($class_osnovni_strategii)) echo $class_osnovni_strategii; ?> href="?s=osnovni-strategii" title="Урок 2: Основни стратегии и типове игри в таблата" >Основни стратегии</a></li>
-            <li><a <?php if(isset($class_nachalo)) echo $class_nachalo; ?> href="?s=nachalo-na-igrata" title="Урок 3: Начало на играта на табла" >Начало на играта</a></li>
-            <li><a <?php if(isset($class_sredata)) echo $class_sredata; ?> href="?s=sredata-na-igrata" title="Урок 4: Стратегии в средата на играта на бекгемън" >Средата на играта</a></li>
-            <li><a <?php if(isset($class_smelo)) echo $class_smelo; ?> href="?s=smelo-ili-sigurno" title="Урок 5: Стратегически и тактически критерии за смела или сигурна игра в таблата" >Смело или сигурно?</a></li>
+            <li><a <?php if(isset($class_nachalo)) echo $class_nachalo; ?> href="?s=nachalo-na-igrata" title="Урок 3: Начало на играта на табла" >Начало на играта</a>
+            <?php if (isset($koga_se0)) echo '
+            <input class="input0" type="checkbox" id="toggle-1" />
+            <label class="label0" for="toggle-1" >+</label>
+            <ul class="submenu">
+            '.$aside0; ?>
+            </li>
+            <li><a <?php if(isset($class_sredata)) echo $class_sredata; ?> href="?s=sredata-na-igrata" title="Урок 4: Стратегии в средата на играта на бекгемън" >Средата на играта</a>
+            <?php if (isset($koga_ne_se)) echo '
+            <input class="input0" type="checkbox" id="toggle-1" />
+            <label class="label0" for="toggle-1" >+</label>
+            <ul class="submenu">
+            '.$aside0; ?>
+            </li>
+            <li><a <?php if(isset($class_smelo)) echo $class_smelo; ?> href="?s=smelo-ili-sigurno" title="Урок 5: Стратегически и тактически критерии за смела или сигурна игра в таблата" >Смело или сигурно?</a>
+            <?php if (isset($primeri_za_smela)) echo '
+            <input class="input0" type="checkbox" id="toggle-1" />
+            <label class="label0" for="toggle-1" >+</label>
+            <ul class="submenu">
+            '.$aside0; ?>
+            </li>
             <li><a <?php if(isset($class_ataka)) echo $class_ataka; ?> href="?s=ataka" title="Урок 6: Игра на атака (блиц). Стратегия за изхвърляне" >Атака</a></li>
-            <li><a <?php if(isset($class_bekgejm_napadenie)) echo $class_bekgejm_napadenie; ?> href="?s=bekgejm-napadenie" title="Урок 7: Бекгейм. Защитна игра (нападение)" >Бекгейм (нападение)</a></li>
+            <li><a <?php if(isset($class_bekgejm_napadenie)) echo $class_bekgejm_napadenie; ?> href="?s=bekgejm-napadenie" title="Урок 7: Бекгейм. Защитна игра (нападение)" >Бекгейм (нападение)</a>
+            <?php if (isset($recirkulaciya0)) echo '
+            <input class="input0" type="checkbox" id="toggle-1" />
+            <label class="label0" for="toggle-1" >+</label>
+            <ul class="submenu">
+            '.$aside0; ?>
+            </li>
             <li><a <?php if(isset($class_pribirane)) echo $class_pribirane; ?> href="?s=pribirane-i-vzimane" title="Урок 8: Стратегии за прибиране и взимане без и с контакт" >Прибиране и взимане</a></li>
             <li><a <?php if(isset($class_razni)) echo $class_razni; ?> href="?s=razni-gnubg" title="Урок 9: Разни съвети (30), gnubg анализира" >Разни съвети (30), gnubg анализира</a></li>
             <li><a <?php if(isset($class_poziciya)) echo $class_poziciya; ?> href="?s=poziciya-na-desetdnevkata" title="Интересни и/или важни позиции от практиктикуването на табла" >Позиция на десетдневката</a></li>
@@ -348,7 +373,7 @@ id="reset" value="Изчисти" title="Изчиства полетата"/>
           <li><a href="#osn" title="Отива в началото на основното съдържание" >Към основното съдържание</a></li>
           <li><a href="#nav" title="Отива към основната навигация" >Към навигацията</a></li>
         </ul>  
-        <?php echo $aside; ?>
+        <?php echo $aside.$aside0; ?>
         <div class="img-konti" >
         <a href="?s=sredata-na-igrata&amp;p=koga-se-ubivat-pulove" ><img class="fit" src="tumbs/%D1%87%D0%B0%D0%BA%D0%B0%D0%BD%D0%BA%D0%B0-%D1%83%D0%B1%D0%B8%D0%B2%D0%B0-%D0%BF%D1%83%D0%BB-200.png" alt="Пример за убиване на пулове" /><br/>Пример за убиване на пул</a>
         </div>

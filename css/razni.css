@@ -162,8 +162,10 @@ ul.submenu {
   display: none;
 }
 .input0[type=checkbox]:checked ~ .label0 {
-  background-color: #000;
+  background-color: #001D00;
 }
-
+.input0[type=checkbox]:checked ~ .label0:hover {
+  background-color: #329632;
+}
 
 
