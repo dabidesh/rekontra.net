@@ -48,7 +48,7 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: #287014;
 }
-figure div {
+figure > div {
   position: relative;
 }
 .centered-bottom-but {
@@ -139,9 +139,9 @@ figure, img, div {
 
 
 .input0[type=checkbox] {
-/*   position: absolute;
+/*position: absolute;
   top: -9999px;
-  left: -9999px; */
+  left: -9999px;*/
   display: none;
 }
 .label0 {
