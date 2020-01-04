@@ -50,6 +50,7 @@ $aside='
 ';
 $aside0='
 <li><a '.$koga_se0.' href="?s=nachalo-na-igrata&amp;p=koga-se-pravyat-sudzhuci" >Кога се правят суджуци?</a></li>
+<li>&nbsp;</li>
 </ul>
 ';
 

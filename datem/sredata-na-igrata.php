@@ -35,6 +35,7 @@ $aside='
 $aside0='
 <li><a '.$koga_se.' href="?s=sredata-na-igrata&amp;p=koga-se-ubivat-pulove" >Кога се убиват пулове?</a></li>
 <li><a '.$koga_ne_se.' href="?s=sredata-na-igrata&amp;p=koga-ne-se-ubivat-pulove" >Кога не се убиват пулове?</a></li>
+<li>&nbsp;</li>
 </ul>
 ';
 

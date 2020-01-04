@@ -273,21 +273,21 @@ function safeurl($s)
             <li><a <?php if(isset($class_rechnik)) echo $class_rechnik; ?> href="?s=rechnik-termini-i-zhargon" title="Урок 1: Речник на термините и жаргонните думи в бекгемъна" >Речник — термини</a></li>
             <li><a <?php if(isset($class_osnovni_strategii)) echo $class_osnovni_strategii; ?> href="?s=osnovni-strategii" title="Урок 2: Основни стратегии и типове игри в таблата" >Основни стратегии</a></li>
             <li><a <?php if(isset($class_nachalo)) echo $class_nachalo; ?> href="?s=nachalo-na-igrata" title="Урок 3: Начало на играта на табла" >Начало на играта</a>
-            <?php if (isset($koga_se0)) echo '
+            <?php if (isset($class_nachalo)) echo '
             <input class="input0" type="checkbox" id="toggle-1" />
             <label class="label0" for="toggle-1" >+</label>
             <ul class="submenu">
             '.$aside0; ?>
             </li>
             <li><a <?php if(isset($class_sredata)) echo $class_sredata; ?> href="?s=sredata-na-igrata" title="Урок 4: Стратегии в средата на играта на бекгемън" >Средата на играта</a>
-            <?php if (isset($koga_ne_se)) echo '
+            <?php if (isset($class_sredata)) echo '
             <input class="input0" type="checkbox" id="toggle-1" />
             <label class="label0" for="toggle-1" >+</label>
             <ul class="submenu">
             '.$aside0; ?>
             </li>
             <li><a <?php if(isset($class_smelo)) echo $class_smelo; ?> href="?s=smelo-ili-sigurno" title="Урок 5: Стратегически и тактически критерии за смела или сигурна игра в таблата" >Смело или сигурно?</a>
-            <?php if (isset($primeri_za_smela)) echo '
+            <?php if (isset($class_smelo)) echo '
             <input class="input0" type="checkbox" id="toggle-1" />
             <label class="label0" for="toggle-1" >+</label>
             <ul class="submenu">
@@ -295,7 +295,7 @@ function safeurl($s)
             </li>
             <li><a <?php if(isset($class_ataka)) echo $class_ataka; ?> href="?s=ataka" title="Урок 6: Игра на атака (блиц). Стратегия за изхвърляне" >Атака</a></li>
             <li><a <?php if(isset($class_bekgejm_napadenie)) echo $class_bekgejm_napadenie; ?> href="?s=bekgejm-napadenie" title="Урок 7: Бекгейм. Защитна игра (нападение)" >Бекгейм (нападение)</a>
-            <?php if (isset($recirkulaciya0)) echo '
+            <?php if (isset($class_bekgejm_napadenie)) echo '
             <input class="input0" type="checkbox" id="toggle-1" />
             <label class="label0" for="toggle-1" >+</label>
             <ul class="submenu">

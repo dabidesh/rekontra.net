@@ -32,6 +32,7 @@ $aside='
 ';
 $aside0='
 <li><a '.$recirkulaciya0.' href="?s=bekgejm-napadenie&amp;p=recirkulaciya-na-silnata-strana" >Рециркулация на силната страна</a></li>
+<li>&nbsp;</li>
 </ul>
 ';
 
