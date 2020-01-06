@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+  background: #49662d;
+  color: #fff;
+  padding-top: var(--spacing-layout-elements);
+  padding-bottom: var(--spacing-layout-elements);
+}
+header a {
+  color: #432559;
+}
+header a:hover {
+  background: #432559;
+  color: #49662d;
+}
+header h1 a {
+  display: block;
+  width: 100%;
+}
+
+/*# sourceMappingURL=header.css.map */
