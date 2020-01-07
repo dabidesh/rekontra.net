@@ -15,7 +15,6 @@ section input {
 }
 
 button {
-  width: 99%;
   font-size: 1.2em;
 }
 button[type=submit], button[type=reset] {

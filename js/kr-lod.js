@@ -2,7 +2,23 @@ window.addEventListener('DOMContentLoaded', (event) => {
     document.getElementsByTagName('body')[0].classList.add('loaded')
 })
 
-// оти не работи ? 
+
+
+window.onscroll = function() {scrollFunction()}
+
+function scrollFunction() {
+  mybutton = document.getElementById("myBtn")
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mybutton.style.display = 'inline'
+  } else {
+    mybutton.style.display = 'none'
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0 // For Safari
+  document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
+}
+// getComputedStyle, решено
 var element, elKr
 //var flag=false;
 window.onload=function() {
