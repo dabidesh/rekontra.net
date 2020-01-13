@@ -1,8 +1,14 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementsByTagName('body')[0].classList.add('loaded')
-})
+  document.getElementsByTagName('body')[0].classList.add('loaded')
+}) 
 
-
+///window.onload = function () {
+//  document.getElementsByTagName('body')[0].classList.add('loaded')
+//}
+/* window.onload = function () {
+  var body = document.body;
+  body.classList.add("loaded");
+} */
 
 window.onscroll = function() {scrollFunction()}
 
@@ -75,6 +81,7 @@ function smenipos(id1, id2) {
     id2.style.display= 'none'
   }
 }
+// TODO:
 // стари, да се премахне поддръжката за Експлодъра
 function getElementById0(name) {
 var o= document.getElementById

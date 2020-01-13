@@ -1,6 +1,6 @@
 article {
-  background: var(--color-body-bgrd, #FFF);
-  color: var(--color-body-text, #000);
+  background: #FFF;
+  color: #000;
   padding: 1em;
 }
 article a {

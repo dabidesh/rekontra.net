@@ -7,16 +7,6 @@ html {
   scroll-behavior: smooth;
 }
 
-nav {
-  background: var(--color-nav-bgrd);
-  color: var(--color-body-bgrd);
-}
-
-aside {
-  background: var(--color-aside-bgrd);
-  color: var(--color-body-bgrd);
-}
-
 #konti {
   opacity: 0.7;
 }
@@ -171,8 +161,6 @@ ul.submenu {
   z-index: 99;
   outline: none;
   border: none;
-  background-color: #050;
-  color: white;
   cursor: pointer;
   padding: 1em;
   border-radius: 2em;
@@ -180,7 +168,6 @@ ul.submenu {
   opacity: 0.5;
 }
 #myBtn:hover {
-  background-color: green;
   opacity: 1;
 }
 

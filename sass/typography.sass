@@ -1,27 +1,29 @@
+$font-size-body-extra: 24px
+
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap')
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic')
 
 html
   font-family: Roboto, sans-serif
-  font-size: var(--font-size-body-mobile1, 16px)
+  font-size: 16px
   line-height: 1.8em
 
 nav
-  font-size: var(--font-size-body-extra, 24px)
+  font-size: $font-size-body-extra
   line-height: 2em
 
 @media (min-width: 600px)
   html
-    font-size: var(--font-size-body-larger, 18px)
+    font-size: 18px
 
 @media (min-width: 1024px)
   html
-    font-size: var(--font-size-body-big, 20px)
+    font-size: 20px
 
 @media (min-width: 1600px)
   html
-    font-size: var(--font-size-body-extra, 24px)
+    font-size: $font-size-body-extra
 
 h1, h2, h3, h4, h5
   font-family: 'Nanum Gothic Coding', monospace

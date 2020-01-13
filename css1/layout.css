@@ -27,13 +27,13 @@ html {
 
 #konti {
   display: grid;
-  grid-gap: var(--spacing-layout-elements, 2em);
+  grid-gap: 2em;
   grid-template-areas: "head head head" "na na na" "art art art" "asi asi asi" "foot foot foot";
   grid-template-columns: 1fr;
 }
 
 header, nav, article, aside, footer {
-  border-radius: var(--spacing-layout-elements, 2em);
+  border-radius: 2em;
   width: 100%;
 }
 
