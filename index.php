@@ -234,6 +234,7 @@ function safeurl($s)
  <link rel="stylesheet" href="css/media-site-0.1.7.css" />
  <link href="<?php echo $kanonichen; ?>" rel="canonical" />
  <link rel="shortcut icon" href="favicon.png" type="image/png" />
+ <link rel="fluid-icon" href="fluidicon512.png" title="Rekontra" />
  <script src="js/res-kr-0.1.8.js"></script>
  <!--<meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >-->
   <!--[if IE 6]>
@@ -402,7 +403,7 @@ id="reset" value="Изчисти" title="Изчиства полетата"/>
          <a href="https://www.facebook.com/rekontra.net"><img src="tumbs/fb-icon-32.png" alt="Фейсбук икона 32" class="peng" /> Фейсбук</a>
         </p>
 
-<p><a href="http://www.save-darina.org/" >Спаси дете!</a> | <a href="#konti" title="Отива в началото на страницата" >↑ Най-горе</a><span class="kr" > | <a href="#nav" title="Отива към основната навигация" >Към навигацията</a> | <a href="#olex" title="Отива в началото на другите препратки" >Към другите препратки</a> | <a href="#osn" title="Отива в началото на основното съдържание" >Към основното съдържание</a></span></p>
+<p><a href="https://life.rekontra.net/life0.html" >Играта „Живот“</a> | <a href="http://www.save-darina.org/" >Спаси дете!</a> | <a href="#konti" title="Отива в началото на страницата" >↑ Най-горе</a><span class="kr" > | <a href="#nav" title="Отива към основната навигация" >Към навигацията</a> | <a href="#olex" title="Отива в началото на другите препратки" >Към другите препратки</a> | <a href="#osn" title="Отива в началото на основното съдържание" >Към основното съдържание</a></span></p>
 </footer>
 </div>
 </body>

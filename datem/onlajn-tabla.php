@@ -53,8 +53,7 @@ $glavnoto='
 <li>Статистика: да.</li>
 <li>Истински пари: не.</li>
 <li>Български език: да.</li>
-<li>Играйте табла на адрес <a href="http://www.playok
-.com/bg/tabla/" >playok.com/bg/tabla/</a>.</li>
+<li>Играйте табла на адрес <a href="http://www.playok.com/bg/tabla/" >playok.com/bg/tabla/</a>.</li>
 </ul>
 ';
 $komentari='
