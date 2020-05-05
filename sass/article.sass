@@ -4,16 +4,22 @@ article
   padding: 1em
 
   a
-    display: inline
+    display: inline-block
+    width: auto
+    color: #329632
 
   h1 a, h2 a, h3 a, li a
-    display: block
+    display: inline-block
     width: 100%
     padding-left: 1em
-
-  a
-    color: #329632
 
   ul
     list-style-image: none
     list-style-position: inside
+
+article a:hover
+  background-color: #329632
+  color: #fff
+
+article a::before
+  background: #000

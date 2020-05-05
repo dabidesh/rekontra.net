@@ -4,19 +4,27 @@ article {
   padding: 1em;
 }
 article a {
-  display: inline;
+  display: inline-block;
+  width: auto;
+  color: #329632;
 }
 article h1 a, article h2 a, article h3 a, article li a {
-  display: block;
+  display: inline-block;
   width: 100%;
   padding-left: 1em;
-}
-article a {
-  color: #329632;
 }
 article ul {
   list-style-image: none;
   list-style-position: inside;
+}
+
+article a:hover {
+  background-color: #329632;
+  color: #fff;
+}
+
+article a::before {
+  background: #000;
 }
 
 /*# sourceMappingURL=article.css.map */

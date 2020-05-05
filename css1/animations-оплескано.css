@@ -1,0 +1,17 @@
+/* Error: Indenting at the beginning of the document is illegal.
+ *   ,
+ * 1 |  /* Анимации и транзишъни
+ *   | ^
+ *   '
+ *   sass/animations-оплескано.sass 1:1  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Indenting at the beginning of the document is illegal.\a   \2577 \a 1 \2502   /* \410 \43d \438 \43c \430 \446 \438 \438  \438  \442 \440 \430 \43d \437 \438 \448 \44a \43d \438 \a   \2502  ^\a   \2575 \a   sass/animations-\43e \43f \43b \435 \441 \43a \430 \43d \43e .sass 1:1  root stylesheet";
+}

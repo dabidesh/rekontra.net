@@ -19,8 +19,14 @@ footer {
   margin-bottom: 16em;
 }
 footer a {
-  display: inline;
+  display: inline-block;
+  width: auto;
   color: #412457;
+}
+
+footer a:hover {
+  background-color: #412457;
+  color: #49662d;
 }
 
 /*# sourceMappingURL=footer.css.map */
