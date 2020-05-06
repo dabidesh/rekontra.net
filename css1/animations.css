@@ -102,7 +102,7 @@ body.loaded h1 span {
   color: #432559;
 }
 
-/*nav li {
+/*nav li { color: green
  * *  transform: translateX(-2em);
  * *  transition: transform 2s ease-out;
  * *}
@@ -224,6 +224,15 @@ a:hover .fcircle::before {
     height: 150%;
     opacity: 0;
   }
+}
+a .peng, a i, button i {
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+a:hover .peng, a:hover i, button:hover i {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 /*# sourceMappingURL=animations.css.map */

@@ -3,6 +3,9 @@ article {
   color: #000;
   padding: 1em;
 }
+article a::before {
+  background: #000 !important;
+}
 article a {
   display: inline-block;
   width: auto;
@@ -17,14 +20,9 @@ article ul {
   list-style-image: none;
   list-style-position: inside;
 }
-
 article a:hover {
   background-color: #329632;
   color: #fff;
-}
-
-article a::before {
-  background: #000;
 }
 
 /*# sourceMappingURL=article.css.map */

@@ -95,7 +95,7 @@ body.loaded h1 span
   /* transform: translateX(0);
   color: #432559
 
-/*nav li {
+/*nav li { color: green
  *  transform: translateX(-2em);
  *  transition: transform 2s ease-out;
  *}
@@ -213,3 +213,10 @@ a
     width: 150%
     height: 150%
     opacity: 0
+
+a .peng, a i, button i
+  -webkit-transition: -webkit-transform 0.8s ease-in-out
+  transition: transform 0.8s ease-in-out 
+a:hover .peng, a:hover i, button:hover i
+  -webkit-transform: rotate(360deg)
+  transform: rotate(360deg)
