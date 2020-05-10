@@ -231,8 +231,8 @@ a .peng, a i, button i {
 }
 
 a:hover .peng, a:hover i, button:hover i {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+  -webkit-transform: rotate(720deg);
+  transform: rotate(720deg);
 }
 
 /*# sourceMappingURL=animations.css.map */
