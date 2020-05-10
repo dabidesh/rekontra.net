@@ -2,7 +2,7 @@
 
 1. Последна стабилна версия: <https://rekontra.net/>
 2. Работна версия (един файл): <http://work.rekontra.net/rekontra.net.html>
-3. Работна версия в „Гитхъб Пейджис“: <https://dabidesh.github.io/rekontra.net/>rekontra.net.html
+3. Работна версия в „Гитхъб Пейджис“: <https://dabidesh.github.io/rekontra.net/rekontra.net.html>
 
 ## Редакция на съществуваща страница
 
