@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+header { clear: both; width: 100%;}
+#konti { width: 100%;}
+
+nav { clear: both; width: 100%; 
+font-size: 100%; 
+}
+article { clear: both; width: 100%; 
+font-size: 100%;
+}
+aside { clear: both; width: 100%; 
+font-size: 100%; 
+}
+footer { 
+clear: both; 
+width: 100%; 
+font-size: 100%; 
+}
+

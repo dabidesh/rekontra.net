@@ -1,0 +1,6 @@
+#reset, #submit {
+width: 49%;
+}
+#ne {
+width: 10%;
+}

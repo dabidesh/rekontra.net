@@ -1,0 +1,8 @@
+Options +FollowSymlinks -Indexes
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www.rekontra.net$ [NC]
+RewriteRule ^(.*)$ http://rekontra.net/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]

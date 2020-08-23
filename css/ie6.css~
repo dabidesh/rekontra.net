@@ -1,0 +1,7 @@
+#reset, #submit {
+width: 49%;
+}
+#ne {
+width: auto;
+}
+.peng { behavior: url("js/iepngfix.htc") }
