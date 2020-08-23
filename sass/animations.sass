@@ -1,4 +1,4 @@
-/* Анимации и транзишъни
+/* Анимации и транзишъни     
 @-moz-keyframes spin
   50%
     color: #000
@@ -60,35 +60,22 @@ a
     z-index: -1
     position: absolute
     top: 0
-
-    /*calc(50%);
     left: 0
     width: 100%
     height: 100%
-
-    /*40%;
-    /*pointer-events: none;
+    pointer-events: none
     background: #fff
-
-    /* #80EDFF;60c952
     border-radius: 0.6em
     transform: scale3d(0, 0, 1)
-
-    /*0 1 1
     transform-origin: 0% 50%
     transition: transform 0.5s
-
-    /*1s 0.33s;
-
-article a::before
-  background: #000
 
 /*nav a::before, aside a::before {
  *  background: #f00;
  *}
 
 a:hover::before
-  transform: scale3d(1, 1, 1)
+  transform: scale3d(1, 1, 0)
   transform-origin: 0% 50%
 
   /* 50 50
@@ -108,7 +95,7 @@ body.loaded h1 span
   /* transform: translateX(0);
   color: #432559
 
-/*nav li {
+/*nav li { color: green
  *  transform: translateX(-2em);
  *  transition: transform 2s ease-out;
  *}
@@ -226,3 +213,10 @@ a
     width: 150%
     height: 150%
     opacity: 0
+
+a .peng, a i, button i
+  -webkit-transition: -webkit-transform 0.8s ease-in-out
+  transition: transform 0.8s ease-in-out 
+a:hover .peng, a:hover i, button:hover i
+  -webkit-transform: rotate(720deg)
+  transform: rotate(720deg)

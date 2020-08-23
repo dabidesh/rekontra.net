@@ -5,7 +5,8 @@ article {
 }
 
 article a {
-  display: inline;
+  display: inline-block;
+  width: auto;
 }
 
 article h1 a, article h2 a, article h3 a, article li a {

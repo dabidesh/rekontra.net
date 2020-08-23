@@ -12,7 +12,12 @@ header a:hover {
   background: #432559;
   color: #49662d;
 }
-header h1 a {
+
+header a:hover span {
+  background: #49662d;
+  color: #432559;
+}
+header a:hover span h1 a {
   display: block;
   width: 100%;
 }
